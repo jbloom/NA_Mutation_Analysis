@@ -1,0 +1,164 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=72;
+	taxlabels
+	'cdsAEK84879_A/Hong_Kong/H090-661-V10/2009_H1N1_2009/06/22_NA_2009.47'[&!name="A/Hong Kong/H090-661-V1(0)/2009"]
+	'cdsADN26074_A/Finland/614/2009_H1N1_2009/07/24_NA_HAS_G147R_2009.56'[&!name="A/Finland/614/2009",!color=#-6750208]
+	'cdsACV67185_A/Indiana/17/2009_H1N1_2009//_NA_2009.50'[&!name="A/Indiana/17/2009"]
+	'cdsAEK85516_A/Taiwan/97291/2009_H1N1_2009/06/_NA_2009.45'[&!name="A/Taiwan/97291/2009"]
+	'cdsAGI54855_A/Florida/20/2009_H1N1_2009/09/16_NA_2009.71'[&!name="A/Florida/20/2009"]
+	'cdsBAK86269_A/Toyama/251/2009_H1N1_2009/07/16_NA_2009.54'[&!name="A/Toyama/251/2009"]
+	'cdsAEJ10433_A/Sydney/DD3-55/2010_H1N1_2010/09/14_NA_2010.70'[&!name="A/Sydney/DD3-55/2010"]
+	'cdsAFN20030_A/Singapore/SGH02/2011_H1N1_2011/02/09_NA_HAS_G147R_2011.11'[&!name="A/Singapore/SGH02/2011",!color=#-6750208]
+	'cdsADN26163_A/Finland/4/2010_H1N1_2010/02/02_NA_2010.09'[&!name="A/Finland/4/2010"]
+	'cdsADD74491_A/New_York/5074/2009_H1N1_2009/10/13_NA_2009.78'[&!name="A/New York/5074/2009"]
+	'cdsADM95681_A/Kenya/0011/2009_H1N1_2009/10/09_NA_2009.77'[&!name="A/Kenya/0011/2009"]
+	'cdsAFK14707_A/Scotland/Glasgow_414159/2009_H1N1_2009/06/10_NA_2009.44'[&!name="A/Scotland/Glasgow_414159/2009"]
+	'cdsADF42732_A/Texas/JMS403/2010_H1N1_2010/01/04_NA_2010.01'[&!name="A/Texas/JMS403/2010"]
+	'cdsADE29014_A/Texas/46192760/2009_H1N1_2009/10/19_NA_2009.80'[&!name="A/Texas/46192760/2009"]
+	'cdsBAJ05804_A/Nagano/RC1/2009_H1N1_2009/08/27_NA_2009.65'[&!name="A/Nagano/RC1/2009"]
+	'cdsAFX96571_A/Viet_Nam/13032036/2009_H1N1_2009/09/03_NA_2009.67'[&!name="A/Viet Nam/13032036/2009"]
+	'cdsBAM34301_A/Gunma/287/2009_H1N1_2009/11/25_NA_2009.90'[&!name="A/Gunma/287/2009"]
+	'cdsAGK73046_A/Alaska/14/2011_H1N1_2011/03/30_NA_2011.24'[&!name="A/Alaska/14/2011"]
+	'cdsADD22668_A/Australia/37/2009_H1N1_2009/07/24_NA_2009.56'[&!name="A/Australia/37/2009"]
+	'cdsACT20179_A/Catalonia/390/2009_H1N1_2009/06/29_NA_2009.49'[&!name="A/Catalonia/390/2009"]
+	'cdsACS94526_A/Indiana/12/2009_H1N1_2009/04/29_NA_2009.33'[&!name="A/Indiana/12/2009"]
+	'cdsADJ37636_A/England/342/2009_H1N1_2009/05/29_NA_2009.41'[&!name="A/England/342/2009"]
+	'cdsAGI54199_A/Washington/58/2009_H1N1_2009/09/22_NA_2009.72'[&!name="A/Washington/58/2009"]
+	'cdsADN26162_A/Finland/3/2010_H1N1_2010/01/13_NA_2010.03'[&!name="A/Finland/3/2010"]
+	'cdsBAM34361_A/Yamagata/473/2009_H1N1_2009/11/09_NA_2009.86'[&!name="A/Yamagata/473/2009"]
+	'cdsAEK85626_A/Taiwan/90174/2011_H1N1_2011/02/_NA_2011.12'[&!name="A/Taiwan/90174/2011"]
+	'cdsAEK85618_A/Taiwan/65241/2011_H1N1_2011/01/_NA_2011.04'[&!name="A/Taiwan/65241/2011"]
+	'cdsAFP35629_A/Singapore/GP3532/2010_H1N1_2010/07/15_NA_2010.54'[&!name="A/Singapore/GP3532/2010"]
+	'cdsAEI86837_A/Sydney/DD3-14/2010_H1N1_2010/09/13_NA_2010.70'[&!name="A/Sydney/DD3-14/2010"]
+	'cdsAFU09532_A/England/03380426/2010_H1N1_2010/08/17_NA_2010.63'[&!name="A/England/03380426/2010"]
+	'cdsAFN87946_A/Guangdong/370/2010_H1N1_2010/08/30_NA_2010.66'[&!name="A/Guangdong/370/2010"]
+	'cdsAFP35328_A/Singapore/TT278/2010_H1N1_2010/05/27_NA_2010.40'[&!name="A/Singapore/TT278/2010"]
+	'cdsADB89264_A/California/VRDL5/2009_H1N1_2009/06/15_NA_2009.45'[&!name="A/California/VRDL5/2009"]
+	'cdsADL32347_A/Guam/NHRC0022/2009_H1N1_2009/09/25_NA_2009.73'[&!name="A/Guam/NHRC0022/2009"]
+	'cdsAGV28803_A/Massachusetts/10/2013_H1N1_2013/06/30_NA_2013.49'[&!name="A/Massachusetts/10/2013"]
+	'cdsAGV75597_A/Helsinki/278/2013_H1N1_2013/01/28_NA_2013.08'[&!name="A/Helsinki/278/2013"]
+	'cdsAGV75025_A/Helsinki/627/2013_H1N1_2013/02/12_NA_2013.12'[&!name="A/Helsinki/627/2013"]
+	'cdsAGV74772_A/Helsinki/804/2013_H1N1_2013/02/21_NA_2013.14'[&!name="A/Helsinki/804/2013"]
+	'cdsAGV74684_A/Helsinki/859/2013_H1N1_2013/02/22_NA_2013.14'[&!name="A/Helsinki/859/2013"]
+	'cdsAGV29017_A/Massachusetts/02/2013_H1N1_2013/01/02_NA_2013.00'[&!name="A/Massachusetts/02/2013"]
+	'cdsAGT41626_A/Beijing/115/2013_H1N1_2013/01/05_NA_2013.01'[&!name="A/Beijing/115/2013"]
+	'cdsAGV29062_A/Georgia/01/2013_H1N1_2013/01/02_NA_2013.00'[&!name="A/Georgia/01/2013"]
+	'cdsAGV28879_A/Connecticut/02/2013_H1N1_2013/07/06_NA_2013.51'[&!name="A/Connecticut/02/2013"]
+	'cdsAGL04909_A/Illinois/03/2012_H1N1_2012/04/16_NA_2012.29'[&!name="A/Illinois/03/2012"]
+	'cdsAFE02984_A/Taiwan/1758/2011_H1N1_2011/02/01_NA_2011.09'[&!name="A/Taiwan/1758/2011"]
+	'cdsAEQ49758_A/Kyoto/10K124/2011_H1N1_2011/01/28_NA_2011.07'[&!name="A/Kyoto/10K124/2011"]
+	'cdsAFN20001_A/Singapore/KK19/2011_H1N1_2011/01/07_NA_2011.02'[&!name="A/Singapore/KK19/2011"]
+	'cdsAET80476_A/Milan/229/2011_H1N1_2011/02/03_NA_2011.09'[&!name="A/Milan/229/2011"]
+	'cdsAET80542_A/Pavia/40/2011_H1N1_2011/01/14_NA_2011.04'[&!name="A/Pavia/40/2011"]
+	'cdsAGL04820_A/Alaska/01/2012_H1N1_2012/03/14_NA_2012.20'[&!name="A/Alaska/01/2012"]
+	'cdsAGL04602_A/Oklahoma/03/2012_H1N1_2012/03/05_NA_2012.18'[&!name="A/Oklahoma/03/2012"]
+	'cdsAGL05078_A/Texas/27/2012_H1N1_2012/02/23_NA_2012.15'[&!name="A/Texas/27/2012"]
+	'cdsAGL05004_A/Nebraska/06/2012_H1N1_2012/02/09_NA_2012.11'[&!name="A/Nebraska/06/2012"]
+	'cdsAGL04482_A/Washington/15/2012_H1N1_2012/02/13_NA_2012.12'[&!name="A/Washington/15/2012"]
+	'cdsAGV29235_A/South_Carolina/20/2012_H1N1_2012/11/13_NA_2012.87'[&!name="A/South Carolina/20/2012"]
+	'cdsAGO02443_A/Para/122067/2013_H1N1_2013/02/09_NA_2013.11'[&!name="A/Para/122067/2013"]
+	'cdsAGK73203_A/Connecticut/08/2011_H1N1_2011/04/02_NA_2011.25'[&!name="A/Connecticut/08/2011"]
+	'cdsAGL96861_A/Parana/251/2012_H1N1_2012/05/22_NA_2012.39'[&!name="A/Parana/251/2012"]
+	'cdsAGL96866_A/Parana/325/2012_H1N1_2012/06/12_NA_2012.45'[&!name="A/Parana/325/2012"]
+	'cdsAGL04824_A/Minnesota/06/2012_H1N1_2012/03/20_NA_2012.22'[&!name="A/Minnesota/06/2012"]
+	'cdsAEJ82853_A/Taiwan/1749/2011_H1N1_2011/01/27_NA_2011.07'[&!name="A/Taiwan/1749/2011"]
+	'cdsAFU09452_A/England/181/2010_H1N1_2010/11/29_NA_2010.91'[&!name="A/England/181/2010"]
+	'cdsADM13154_A/Frankfurt/INS403/2010_H1N1_2010/01/11_NA_2010.03'[&!name="A/Frankfurt/INS403/2010"]
+	'cdsAFP34781_A/Singapore/GP174/2010_H1N1_2010/01/12_NA_2010.03'[&!name="A/Singapore/GP174/2010"]
+	'cdsAEF28871_A/Guangdong/2989/2010_H1N1_2010/03/07_NA_2010.18'[&!name="A/Guangdong/2989/2010"]
+	'cdsAEH77118_A/Hangzhou/A76/2011_H1N1_2011/02/11_NA_2011.11'[&!name="A/Hangzhou/A76/2011"]
+	'cdsAFN20114_A/Singapore/TT58/2011_H1N1_2011/01/19_NA_2011.05'[&!name="A/Singapore/TT58/2011"]
+	'cdsAFE11259_A/Tianjinhedong/SWL44/2011_H1N1_2011/01/08_NA_HAS_G147R_2011.02'[&!name="A/Tianjinhedong/SWL44/2011",!color=#-6750208]
+	'cdsAEH77111_A/Hangzhou/975/2010_H1N1_2010/12/_NA_2010.95'[&!name="A/Hangzhou/975/2010"]
+	'cdsAFE11249_A/Tianjinjinnan/SWL41/2011_H1N1_2011/01/28_NA_2011.07'[&!name="A/Tianjinjinnan/SWL41/2011"]
+	'cdsAGK73130_A/New_Mexico/07/2011_H1N1_2011/03/07_NA_2011.18'[&!name="A/New Mexico/07/2011"]
+	'cdsAGK73135_A/New_Mexico/05/2011_H1N1_2011/02/09_NA_2011.11'[&!name="A/New Mexico/05/2011"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((((((('cdsAEK84879_A/Hong_Kong/H090-661-V10/2009_H1N1_2009/06/22_NA_2009.47':0.0021732435,(('cdsADN26074_A/Finland/614/2009_H1N1_2009/07/24_NA_HAS_G147R_2009.56'[&!color=#-6750208]:0.0021738181,('cdsACV67185_A/Indiana/17/2009_H1N1_2009//_NA_2009.50':1.0E-8,(('cdsAEK85516_A/Taiwan/97291/2009_H1N1_2009/06/_NA_2009.45':0.0021739239,'cdsAGI54855_A/Florida/20/2009_H1N1_2009/09/16_NA_2009.71':0.0043536057)[&support=0.0]:1.813E-7,'cdsBAK86269_A/Toyama/251/2009_H1N1_2009/07/16_NA_2009.54':0.0021736663)[&support=0.0]:1.489E-7)[&support=0.0]:1.259E-7)[&support=0.0]:1.977E-7,((((('cdsAEJ10433_A/Sydney/DD3-55/2010_H1N1_2010/09/14_NA_2010.70':0.0032665246,'cdsAFN20030_A/Singapore/SGH02/2011_H1N1_2011/02/09_NA_HAS_G147R_2011.11'[&!color=#-6750208]:0.013316863)[&support=0.77,!name="0.77"]:0.0032667533,'cdsADN26163_A/Finland/4/2010_H1N1_2010/02/02_NA_2010.09':0.0021740755)[&support=0.0]:2.284E-7,'cdsADD74491_A/New_York/5074/2009_H1N1_2009/10/13_NA_2009.78':1.509E-7)[&support=0.876,!name="0.88"]:0.0021741567,'cdsADM95681_A/Kenya/0011/2009_H1N1_2009/10/09_NA_2009.77':0.0021736948)[&support=0.0]:1.801E-7,'cdsAFK14707_A/Scotland/Glasgow_414159/2009_H1N1_2009/06/10_NA_2009.44':0.0021740418)[&support=0.0]:2.475E-7)[&support=0.0]:1.84E-7)[&support=0.0]:1.0E-8,(((('cdsADF42732_A/Texas/JMS403/2010_H1N1_2010/01/04_NA_2010.01':0.004353404,'cdsADE29014_A/Texas/46192760/2009_H1N1_2009/10/19_NA_2009.80':2.491E-7)[&support=0.153]:0.0021736022,'cdsBAJ05804_A/Nagano/RC1/2009_H1N1_2009/08/27_NA_2009.65':2.315E-7)[&support=0.873,!name="0.87"]:0.0021737671,'cdsAFX96571_A/Viet_Nam/13032036/2009_H1N1_2009/09/03_NA_2009.67':0.0021735289)[&support=0.0]:2.663E-7,'cdsBAM34301_A/Gunma/287/2009_H1N1_2009/11/25_NA_2009.90':0.0021744911)[&support=0.0]:2.4E-7)[&support=0.0]:2.404E-7,((((('cdsAGK73046_A/Alaska/14/2011_H1N1_2011/03/30_NA_2011.24':0.0109436888,'cdsADD22668_A/Australia/37/2009_H1N1_2009/07/24_NA_2009.56':0.0021713756)[&support=0.768,!name="0.77"]:0.0021797514,(('cdsACT20179_A/Catalonia/390/2009_H1N1_2009/06/29_NA_2009.49':0.0049573691,('cdsACS94526_A/Indiana/12/2009_H1N1_2009/04/29_NA_2009.33':0.0043501063,'cdsADJ37636_A/England/342/2009_H1N1_2009/05/29_NA_2009.41':0.0065293636)[&support=0.0]:1.51E-7)[&support=0.925,!name="0.93"]:0.0043498248,'cdsAGI54199_A/Washington/58/2009_H1N1_2009/09/22_NA_2009.72':0.0021747775)[&support=0.0]:2.538E-7)[&support=0.0,!rotate=false]:1.588E-7,'cdsADN26162_A/Finland/3/2010_H1N1_2010/01/13_NA_2010.03':0.0043517697)[&support=0.0]:1.728E-7,'cdsBAM34361_A/Yamagata/473/2009_H1N1_2009/11/09_NA_2009.86':0.0021737527)[&support=0.0]:1.502E-7,((('cdsAEK85626_A/Taiwan/90174/2011_H1N1_2011/02/_NA_2011.12':0.0153492912,('cdsAEK85618_A/Taiwan/65241/2011_H1N1_2011/01/_NA_2011.04':0.0175064438,(('cdsAFP35629_A/Singapore/GP3532/2010_H1N1_2010/07/15_NA_2010.54':1.0E-8,'cdsAEI86837_A/Sydney/DD3-14/2010_H1N1_2010/09/13_NA_2010.70':0.0021738899)[&support=0.0]:2.507E-7,'cdsAFU09532_A/England/03380426/2010_H1N1_2010/08/17_NA_2010.63':0.0065302583)[&support=0.0]:1.862E-7)[&support=0.874,!name="0.87",!collapse={"collapsed",0.020169169700000017}]:0.0043891152)[&support=0.739,!rotate=true]:0.0021418616,'cdsAFN87946_A/Guangdong/370/2010_H1N1_2010/08/30_NA_2010.66':0.0219288918)[&support=0.0,!rotate=true]:2.428E-7,'cdsAFP35328_A/Singapore/TT278/2010_H1N1_2010/05/27_NA_2010.40':1.0E-8)[&support=0.0]:1.493E-7)[&support=0.0]:1.809E-7)[&support=0.0]:2.074E-7,'cdsADB89264_A/California/VRDL5/2009_H1N1_2009/06/15_NA_2009.45':0.002174001)[&support=0.0]:1.746E-7,'cdsADL32347_A/Guam/NHRC0022/2009_H1N1_2009/09/25_NA_2009.73':0.0021739077)[&support=0.0]:2.066E-7,(((((((((('cdsAGV28803_A/Massachusetts/10/2013_H1N1_2013/06/30_NA_2013.49':0.0087276047,'cdsAGV75597_A/Helsinki/278/2013_H1N1_2013/01/28_NA_2013.08':0.0131215278)[&support=0.0]:2.325E-7,'cdsAGV75025_A/Helsinki/627/2013_H1N1_2013/02/12_NA_2013.12':0.0043571962)[&support=0.778]:0.0021751945,'cdsAGV74772_A/Helsinki/804/2013_H1N1_2013/02/21_NA_2013.14':0.0021800484)[&support=0.783]:0.0021803859,'cdsAGV74684_A/Helsinki/859/2013_H1N1_2013/02/22_NA_2013.14':2.454E-7)[&support=0.888]:0.0021772016,('cdsAGV29017_A/Massachusetts/02/2013_H1N1_2013/01/02_NA_2013.00':0.0131119292,('cdsAGT41626_A/Beijing/115/2013_H1N1_2013/01/05_NA_2013.01':0.0175783764,('cdsAGV29062_A/Georgia/01/2013_H1N1_2013/01/02_NA_2013.00':0.0109616692,'cdsAGV28879_A/Connecticut/02/2013_H1N1_2013/07/06_NA_2013.51':0.0065692171)[&support=0.776]:0.0033323963)[&support=0.779]:0.0032192625)[&support=0.0]:1.558E-7)[&support=0.958]:0.0065402798,(('cdsAGL04909_A/Illinois/03/2012_H1N1_2012/04/16_NA_2012.29':0.015317454,('cdsAFE02984_A/Taiwan/1758/2011_H1N1_2011/02/01_NA_2011.09':0.0043534834,'cdsAEQ49758_A/Kyoto/10K124/2011_H1N1_2011/01/28_NA_2011.07':0.0065344522)[&support=0.0]:2.019E-7)[&support=0.796]:0.0021749153,'cdsAFN20001_A/Singapore/KK19/2011_H1N1_2011/01/07_NA_2011.02':0.0043569193)[&support=0.0]:1.508E-7)[&support=0.0]:2.464E-7,('cdsAET80476_A/Milan/229/2011_H1N1_2011/02/03_NA_2011.09':0.004416704,'cdsAET80542_A/Pavia/40/2011_H1N1_2011/01/14_NA_2011.04':0.0078661579)[&support=0.0]:4.993E-7)[&support=0.0]:2.332E-7,((('cdsAGL04820_A/Alaska/01/2012_H1N1_2012/03/14_NA_2012.20':1.0E-8,('cdsAGL04602_A/Oklahoma/03/2012_H1N1_2012/03/05_NA_2012.18':0.006541541,('cdsAGL05078_A/Texas/27/2012_H1N1_2012/02/23_NA_2012.15':0.0021773183,'cdsAGL05004_A/Nebraska/06/2012_H1N1_2012/02/09_NA_2012.11':1.0E-8)[&support=0.859]:0.002176025)[&support=0.0]:1.522E-7)[&support=0.0]:2.25E-7,'cdsAGL04482_A/Washington/15/2012_H1N1_2012/02/13_NA_2012.12':1.0E-8)[&support=0.0]:1.972E-7,'cdsAGV29235_A/South_Carolina/20/2012_H1N1_2012/11/13_NA_2012.87':0.0043535487)[&support=0.979]:0.0131074083)[&support=0.772]:0.0021839641,((('cdsAGO02443_A/Para/122067/2013_H1N1_2013/02/09_NA_2013.11':0.0332838464,'cdsAGK73203_A/Connecticut/08/2011_H1N1_2011/04/02_NA_2011.25':0.0087252772)[&support=0.0]:3.515E-7,(('cdsAGL96861_A/Parana/251/2012_H1N1_2012/05/22_NA_2012.39':0.002179242,'cdsAGL96866_A/Parana/325/2012_H1N1_2012/06/12_NA_2012.45':1.0E-8)[&support=0.911]:0.0043550364,('cdsAGL04824_A/Minnesota/06/2012_H1N1_2012/03/20_NA_2012.22':0.0109183243,'cdsAEJ82853_A/Taiwan/1749/2011_H1N1_2011/01/27_NA_2011.07':1.0E-8)[&support=0.0]:1.986E-7)[&support=0.835]:0.0021750379)[&support=0.0]:2.295E-7,'cdsAFU09452_A/England/181/2010_H1N1_2010/11/29_NA_2010.91':1.0E-8)[&support=0.773]:0.0021692987)[&support=0.968,!name="0.97",!collapse={"collapsed",0.0}]:0.0087522912,'cdsADM13154_A/Frankfurt/INS403/2010_H1N1_2010/01/11_NA_2010.03':0.0087391096)[&support=0.0,!rotate=true]:1.956E-7)[&support=0.0]:9.319E-7,'cdsAFP34781_A/Singapore/GP174/2010_H1N1_2010/01/12_NA_2010.03':0.0043503958)[&support=0.394]:0.0042486717,'cdsAEF28871_A/Guangdong/2989/2010_H1N1_2010/03/07_NA_2010.18':0.0176853925)[&support=0.994,!name="0.99"]:0.0220725164,(((('cdsAEH77118_A/Hangzhou/A76/2011_H1N1_2011/02/11_NA_2011.11':0.0021781014,'cdsAFN20114_A/Singapore/TT58/2011_H1N1_2011/01/19_NA_2011.05':0.0021769884)[&support=0.0]:2.414E-7,'cdsAFE11259_A/Tianjinhedong/SWL44/2011_H1N1_2011/01/08_NA_HAS_G147R_2011.02'[&!color=#-6750208]:0.0021783593)[&support=0.0]:2.054E-7,'cdsAEH77111_A/Hangzhou/975/2010_H1N1_2010/12/_NA_2010.95':1.0E-8)[&support=0.0]:1.686E-7,'cdsAFE11249_A/Tianjinjinnan/SWL41/2011_H1N1_2011/01/28_NA_2011.07':0.0021780022)[&support=0.0]:2.353E-7)[&support=0.819]:0.0021775757,'cdsAGK73130_A/New_Mexico/07/2011_H1N1_2011/03/07_NA_2011.18':0.0021773844,'cdsAGK73135_A/New_Mexico/05/2011_H1N1_2011/02/09_NA_2011.11':1.0E-8);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#-1;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#-16777216;
+	set appearance.selectionColour=#-2144520576;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Names";
+	set branchLabels.fontName="Arial";
+	set branchLabels.fontSize=10;
+	set branchLabels.fontStyle=1;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="support";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Abadi MT Condensed Extra Bold";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=false;
+	set scaleBar.fontSize=13.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=2.0;
+	set scaleBar.scaleRange=0.01;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=11;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

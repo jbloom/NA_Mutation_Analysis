@@ -1,0 +1,207 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=115;
+	taxlabels
+	'cdsCAM59159_A/chicken/Nigeria/FA6/2006_H5N1_2006//_NA_2006.50'[&!name="A/chicken/Nigeria/FA6/2006"]
+	'cdsADB25528_A/chicken/Nigeria/08RS848-104/2007_H5N1_2007/08/10_NA_2007.61'[&!name="A/chicken/Nigeria/08RS848-104/2007"]
+	'cdsADB26133_A/chicken/Nigeria/08RS848-83/2007_H5N1_2007/03/27_NA_2007.23'[&!name="A/chicken/Nigeria/08RS848-83/2007"]
+	'cdsABV53541_A/chicken/Nigeria/1071-15/2007_H5N1_2007//_NA_2007.50'[&!name="A/chicken/Nigeria/1071-15/2007"]
+	'cdsADB25748_A/chicken/Nigeria/08RS848-33/2006_H5N1_2006/07/19_NA_2006.55'[&!name="A/chicken/Nigeria/08RS848-33/2006"]
+	'cdsABV53511_A/chicken/Nigeria/1071-7/2007_H5N1_2007//_NA_2007.50'[&!name="A/chicken/Nigeria/1071-7/2007"]
+	'cdsABV53481_A/chicken/Nigeria/1071-3/2007_H5N1_2007//_NA_2007.50'[&!name="A/chicken/Nigeria/1071-3/2007"]
+	'cdsADB26210_A/chicken/Nigeria/08RS848-93/2007_H5N1_2007/07/21_NA_HAS_G147R_2007.55'[&!name="A/chicken/Nigeria/08RS848-93/2007",!color=#-6750208]
+	'cdsCAM59156_A/chicken/Nigeria/AB13/2006_H5N1_2006//_NA_2006.50'[&!name="A/chicken/Nigeria/AB13/2006"]
+	'cdsADB25649_A/chicken/Nigeria/08RS848-14/2006_H5N1_2006/06/07_NA_2006.43'[&!name="A/chicken/Nigeria/08RS848-14/2006"]
+	'cdsCAK18584_A/chicken/Nigeria/SO300/2006_H5N1_2006//_NA_2006.50'[&!name="A/chicken/Nigeria/SO300/2006"]
+	'cdsAFW18427_A/chicken/Menofia/CAI36/2010_H5N1_2010/04/21_NA_2010.30'[&!name="A/chicken/Menofia/CAI36/2010"]
+	'cdsADW01439_A/chicken/Egypt/09534S-NLQP/2009_H5N1_2009/05/_NA_2009.37'[&!name="A/chicken/Egypt/09534S-NLQP/2009"]
+	'cdsAFW18229_A/chicken/Sharkia/CAI3/2009_H5N1_2009/09/01_NA_2009.67'[&!name="A/chicken/Sharkia/CAI3/2009"]
+	'cdsCBW54820_A/chicken/Egypt/Q1185/2010_H5N1_2010//_NA_2010.50'[&!name="A/chicken/Egypt/Q1185/2010"]
+	'cdsAFH53768_A/chicken/Egypt/Kalyobia-18-CLEVB/2011_H5N1_2011/02/10_NA_HAS_G147R_2011.11'[&!name="A/chicken/Egypt/Kalyobia-18-CLEVB/2011",!color=#-6750208]
+	'cdsADW01454_A/chicken/Egypt/10127s/2010_H5N1_2010/02/_NA_2010.12'[&!name="A/chicken/Egypt/10127s/2010"]
+	'cdsAGF37889_A/chicken/Kalyobia/CLEVB-5/2010_H5N1_2010/12/_NA_2010.95'[&!name="A/chicken/Kalyobia/CLEVB-5/2010"]
+	'cdsAFW17325_A/chicken/Sharkia/CAI16/2009_H5N1_2009/06/01_NA_2009.42'[&!name="A/chicken/Sharkia/CAI16/2009"]
+	'cdsAFW17414_A/chicken/Menofia/CAI34/2010_H5N1_2010/04/21_NA_2010.30'[&!name="A/chicken/Menofia/CAI34/2010"]
+	'cdsAFW17381_A/chicken/Menofia/CAI29/2009_H5N1_2009/10/01_NA_2009.75'[&!name="A/chicken/Menofia/CAI29/2009"]
+	'cdsADW01456_A/chicken/Egypt/10135ss/2010_H5N1_2010/03/_NA_2010.20'[&!name="A/chicken/Egypt/10135ss/2010"]
+	'cdsBAK23433_A/chicken/Egypt/RIMD29-1/2009_H5N1_2009/02/_NA_2009.13'[&!name="A/chicken/Egypt/RIMD29-1/2009"]
+	'cdsAFW18295_A/chicken/Qalubia/CAI12/2008_H5N1_2008/06/30_NA_2008.50'[&!name="A/chicken/Qalubia/CAI12/2008"]
+	'cdsACR56194_A/chicken/Egypt/0815-NLQP/2008_H5N1_2008/01/05_NA_2008.01'[&!name="A/chicken/Egypt/0815-NLQP/2008"]
+	'cdsAFK13806_A/chicken/Egypt/112SG/2011_H5N1_2011/01/04_NA_2011.01'[&!name="A/chicken/Egypt/112SG/2011"]
+	'cdsADW01442_A/chicken/Egypt/1029/2010_H5N1_2010/01/_NA_2010.04'[&!name="A/chicken/Egypt/1029/2010"]
+	'cdsADW01418_A/chicken/Egypt/092-NLQP/2009_H5N1_2009/01/_NA_2009.04'[&!name="A/chicken/Egypt/092-NLQP/2009"]
+	'cdsADW01430_A/chicken/Egypt/0987-NLQP/2009_H5N1_2009/05/_NA_2009.37'[&!name="A/chicken/Egypt/0987-NLQP/2009"]
+	'cdsADW01437_A/chicken/Egypt/09279S-NLQP/2009_H5N1_2009/04/_NA_2009.29'[&!name="A/chicken/Egypt/09279S-NLQP/2009"]
+	'cdsACR56213_A/chicken/Egypt/0875S-NLQP/2008_H5N1_2008/01/06_NA_2008.01'[&!name="A/chicken/Egypt/0875S-NLQP/2008"]
+	'cdsABV24032_A/chicken/Egypt/3/2006_H5N1_2006//_NA_2006.50'[&!name="A/chicken/Egypt/3/2006"]
+	'cdsADM33973_A/chicken/Bangladesh/1151-11/2010_H5N1_2010//_NA_2010.50'[&!name="A/chicken/Bangladesh/1151-11/2010"]
+	'cdsAEO00210_A/chicken/Bhutan/248006/2010_H5N1_2010/02/17_NA_2010.13'[&!name="A/chicken/Bhutan/248006/2010"]
+	'cdsACN90965_A/chicken/Assam/140187/2008_H5N1_2008/11/20_NA_2008.89'[&!name="A/chicken/Assam/140187/2008"]
+	'cdsACV90500_A/chicken/India/WB-NIV96526/2009_H5N1_2009/05/23_NA_2009.39'[&!name="A/chicken/India/WB-NIV96526/2009"]
+	'cdsACY06553_A/chicken/West_Bengal/170564/2009_H5N1_2009/03/09_NA_2009.19'[&!name="A/chicken/West Bengal/170564/2009"]
+	'cdsADB25352_A/chicken/Nigeria/08VIR4337-344/2008_H5N1_2008/07/16_NA_2008.54'[&!name="A/chicken/Nigeria/08VIR4337-344/2008"]
+	'cdsACI87706_A/chicken/Astana/6/2005_H5N1_2005/06/_NA_2005.45'[&!name="A/chicken/Astana/6/2005"]
+	'cdsACK57573_A/chicken/Vietnam/NCVD-093/2008_H5N1_2008//_NA_2008.50'[&!name="A/chicken/Vietnam/NCVD-093/2008"]
+	'cdsADG59217_A/chicken/Xinjiang/28/2006_H5N1_2006//_NA_2006.50'[&!name="A/chicken/Xinjiang/28/2006"]
+	'cdsADG59223_A/chicken/Xinjiang/67/2005_H5N1_2005//_NA_2005.50'[&!name="A/chicken/Xinjiang/67/2005"]
+	'cdsBAD89307_A/chicken/Yamaguchi/7/2004_H5N1_2004//_NA_2004.50'[&!name="A/chicken/Yamaguchi/7/2004"]
+	'cdsADG59236_A/chicken/Shandong/A-10/2006_H5N1_2006//_NA_2006.50'[&!name="A/chicken/Shandong/A-10/2006"]
+	'cdsAAZ14224_A/Chicken/Shantou/810/05_H5N1_2005//_NA_2005.50'[&!name="A/Chicken/Shantou/810/05"]
+	'cdsBAN42591_A/chicken/Soc_Trang/2/2012_H5N1_2012/06/17_NA_2012.46'[&!name="A/chicken/Soc Trang/2/2012"]
+	'cdsAEN68792_A/chicken/Cambodia/008LC1/2011_H5N1_2011/01/27_NA_2011.07'[&!name="A/chicken/Cambodia/008LC1/2011"]
+	'cdsAEN68785_A/chicken/Cambodia/TKCMB1F/2010_H5N1_2010/01/28_NA_2010.08'[&!name="A/chicken/Cambodia/TKCMB1F/2010"]
+	'cdsABE97688_A/chicken/Vietnam/135/2004_H5N1_2004//_NA_2004.50'[&!name="A/chicken/Vietnam/135/2004"]
+	'cdsAAZ72711_A/chicken/Viet_Nam/TG-023/2004_H5N1_2004//_NA_2004.50'[&!name="A/chicken/Viet Nam/TG-023/2004"]
+	'cdsADQ92425_A/chicken/Cambodia/013LC2b/2005_H5N1_2005//_NA_2005.50'[&!name="A/chicken/Cambodia/013LC2b/2005"]
+	'cdsABE97669_A/chicken/Vietnam/348/2005_H5N1_2005//_NA_2005.50'[&!name="A/chicken/Vietnam/348/2005"]
+	'cdsACX54906_A/chicken/Thailand/CU-354/2008_H5N1_2008/11/14_NA_2008.87'[&!name="A/chicken/Thailand/CU-354/2008"]
+	'cdsAGJ73019_A/chicken/Saraburi/10713/2005_H5N1_2005//_NA_2005.50'[&!name="A/chicken/Saraburi/10713/2005"]
+	'cdsBAG80843_A/chicken/Suphanburi/NIAH7540/2004_H5N1_2004//_NA_2004.50'[&!name="A/chicken/Suphanburi/NIAH7540/2004"]
+	'cdsBAG80850_A/chicken/Phichit/NIAH606988/2006_H5N1_2006//_NA_2006.50'[&!name="A/chicken/Phichit/NIAH606988/2006"]
+	'cdsABQ41366_A/chicken/Thailand/vsmu-3-BKK/2004_H5N1_2004//_NA_2004.50'[&!name="A/chicken/Thailand/vsmu-3-BKK/2004"]
+	'cdsAAZ29982_A/chicken/Suphanburi-Thailand/CU-1/04_H5N1_2004//_NA_2004.50'[&!name="A/chicken/Suphanburi-Thailand/CU-1/04"]
+	'cdsBAG80832_A/chicken/Kalasin/NIAH316/2004_H5N1_2004//_NA_2004.50'[&!name="A/chicken/Kalasin/NIAH316/2004"]
+	'cdsAAS87578_A/chicken/Vietnam/HD1/2004_H5N1_2004//_NA_2004.50'[&!name="A/chicken/Vietnam/HD1/2004"]
+	'cdsABI96702_A/chicken/Henan/wu/2004_H5N1_2004//_NA_2004.50'[&!name="A/chicken/Henan/wu/2004"]
+	'cdsADG59204_A/chicken/Anhui/39/2004_H5N1_2004//_NA_HAS_G147R_2004.50'[&!name="A/chicken/Anhui/39/2004",!color=#-6750208]
+	'cdsADG59211_A/chicken/Gansu/44/2004_H5N1_2004//_NA_HAS_G147R_2004.50'[&!name="A/chicken/Gansu/44/2004",!color=#-6750208]
+	'cdsAAX53527_A/chicken/Henan/12/2004_H5N1_2004//_NA_2004.50'[&!name="A/chicken/Henan/12/2004"]
+	'cdsAAX53525_A/chicken/Henan/01/2004_H5N1_2004//_NA_2004.50'[&!name="A/chicken/Henan/01/2004"]
+	'cdsAAV48545_A/chicken/Hubei/489/2004_H5N1_2004//_NA_2004.50'[&!name="A/chicken/Hubei/489/2004"]
+	'cdsABU98998_A/Chicken/Indonesia/Wates126/2005_H5N1_2005//_NA_2005.50'[&!name="A/Chicken/Indonesia/Wates126/2005"]
+	'cdsABI36025_A/chicken/Indonesia/CDC25/2005_H5N1_2005/10/04_NA_2005.76'[&!name="A/chicken/Indonesia/CDC25/2005"]
+	'cdsADB07939_A/chicken/West_Java/Smi-M1/2008_H5N1_2008/06/20_NA_2008.47'[&!name="A/chicken/West Java/Smi-M1/2008"]
+	'cdsAGJ73130_A/chicken/Tana_Toraja/BBVM-1/2007_H5N1_2007/11/07_NA_2007.85'[&!name="A/chicken/Tana Toraja/BBVM-1/2007"]
+	'cdsAGK72251_A/chicken/Denpasar/BBVD-291/2007_H5N1_2007/06/14_NA_2007.45'[&!name="A/chicken/Denpasar/BBVD-291/2007"]
+	'cdsAGK72286_A/chicken/Badung/BBVD-205/2007_H5N1_2007/05/15_NA_2007.37'[&!name="A/chicken/Badung/BBVD-205/2007"]
+	'cdsAGK72284_A/chicken/Klungkung/BBVD-484/2007_H5N1_2007/08/23_NA_2007.64'[&!name="A/chicken/Klungkung/BBVD-484/2007"]
+	'cdsAGJ73112_A/chicken/Tanah_Datar/BPPVRII-365/2007_H5N1_2007/06/14_NA_2007.45'[&!name="A/chicken/Tanah Datar/BPPVRII-365/2007"]
+	'cdsAGJ73097_A/chicken/Pesisir_Selatan/BPPVRII-119/2007_H5N1_2007/03/07_NA_2007.18'[&!name="A/chicken/Pesisir Selatan/BPPVRII-119/2007"]
+	'cdsAGJ73116_A/chicken/Kuantan_Singingi/BPPVRII-620/2007_H5N1_2007/10/25_NA_2007.81'[&!name="A/chicken/Kuantan Singingi/BPPVRII-620/2007"]
+	'cdsABU99136_A/Chicken/Indonesia/Padang1631-1/2006_H5N1_2006//_NA_2006.50'[&!name="A/Chicken/Indonesia/Padang1631-1/2006"]
+	'cdsAGJ73096_A/chicken/Tebing/BPPVRI-72/2008_H5N1_2008/02/21_NA_2008.14'[&!name="A/chicken/Tebing/BPPVRI-72/2008"]
+	'cdsABU99057_A/Chicken/Padang/BPPV11/2006_H5N1_2006//_NA_2006.50'[&!name="A/Chicken/Padang/BPPV11/2006"]
+	'cdsABE97656_A/chicken/Pangkalpinang/BPPV3/2004_H5N1_2004//_NA_2004.50'[&!name="A/chicken/Pangkalpinang/BPPV3/2004"]
+	'cdsABE97635_A/chicken/Malang/BBVet-IV/2004_H5N1_2004//_NA_2004.50'[&!name="A/chicken/Malang/BBVet-IV/2004"]
+	'cdsAEI26192_A/chicken/Vietnam/27262/2009_H5N1_2009/04/29_NA_2009.33'[&!name="A/chicken/Vietnam/27262/2009"]
+	'cdsADM53381_A/chicken/Eastern_China/JX036/2009_H5N1_2009//_NA_2009.50'[&!name="A/chicken/Eastern China/JX036/2009"]
+	'cdsABJ51742_A/chicken/Viet_Nam/10/2005_H5N1_2005//_NA_2005.50'[&!name="A/chicken/Viet Nam/10/2005"]
+	'cdsADM53383_A/chicken/Eastern_China/XH222/2008_H5N1_2008//_NA_2008.50'[&!name="A/chicken/Eastern China/XH222/2008",!color=#-16777216]
+	'cdsACN39517_A/chicken/Hunan/3157/2006_H5N1_2006/11/30_NA_2006.91'[&!name="A/chicken/Hunan/3157/2006",!color=#-16777216]
+	'cdsACZ36753_A/chicken/Ninh_Binh/209/2005_H5N1_2005//_NA_2005.50'[&!name="A/chicken/Ninh Binh/209/2005"]
+	'cdsAGG52937_A/chicken/Bangladesh/12VIR-7140-19/2012_H5N1_2012/03/25_NA_2012.23'[&!name="A/chicken/Bangladesh/12VIR-7140-19/2012"]
+	'cdsAGG52927_A/chicken/Bangladesh/12VIR-7140-8/2012_H5N1_2012/02/14_NA_2012.12'[&!name="A/chicken/Bangladesh/12VIR-7140-8/2012"]
+	'cdsAGG52924_A/chicken/Bangladesh/12VIR-7140-5/2012_H5N1_2012/01/21_NA_2012.05'[&!name="A/chicken/Bangladesh/12VIR-7140-5/2012"]
+	'cdsAGG52932_A/chicken/Bangladesh/12VIR-7140-14/2012_H5N1_2012/04/03_NA_2012.25'[&!name="A/chicken/Bangladesh/12VIR-7140-14/2012"]
+	'cdsAGG52928_A/chicken/Bangladesh/12VIR-7140-10/2012_H5N1_2012/03/05_NA_2012.18'[&!name="A/chicken/Bangladesh/12VIR-7140-10/2012"]
+	'cdsAGG52926_A/chicken/Bangladesh/12VIR-7140-7/2012_H5N1_2012/01/19_NA_2012.05'[&!name="A/chicken/Bangladesh/12VIR-7140-7/2012"]
+	'cdsAGS08978_A/chicken/India/09CA01/2011_H5N1_2011/09/_NA_2011.70'[&!name="A/chicken/India/09CA01/2011"]
+	'cdsAGG52920_A/chicken/Bangladesh/12VIR-7140-1/2011_H5N1_2011/12/19_NA_HAS_G147R_2011.96'[&!name="A/chicken/Bangladesh/12VIR-7140-1/2011",!color=#-6750208]
+	'cdsAEX91697_A/chicken/India/TR0383/2011_H5N1_2011/03/06_NA_2011.18'[&!name="A/chicken/India/TR0383/2011"]
+	'cdsAEX91691_A/chicken/India/CL03485/2011_H5N1_2011/03/06_NA_2011.18'[&!name="A/chicken/India/CL03485/2011"]
+	'cdsAEX91693_A/chicken/India/CA0301/2011_H5N1_2011/03/06_NA_2011.18'[&!name="A/chicken/India/CA0301/2011"]
+	'cdsAGG52921_A/chicken/Bangladesh/12VIR-7140-2/2012_H5N1_2012/01/02_NA_HAS_G147R_2012.00'[&!name="A/chicken/Bangladesh/12VIR-7140-2/2012",!color=#-6750208]
+	'cdsAGG52922_A/chicken/Bangladesh/12VIR-7140-3/2012_H5N1_2012/01/08_NA_HAS_G147R_2012.02'[&!name="A/chicken/Bangladesh/12VIR-7140-3/2012",!color=#-6750208]
+	'cdsAGG52925_A/chicken/Bangladesh/12VIR-7140-6/2012_H5N1_2012/02/14_NA_HAS_G147R_2012.12'[&!name="A/chicken/Bangladesh/12VIR-7140-6/2012",!color=#-6750208]
+	'cdsAGG52930_A/chicken/Bangladesh/12VIR-7140-12/2012_H5N1_2012/03/27_NA_2012.24'[&!name="A/chicken/Bangladesh/12VIR-7140-12/2012"]
+	'cdsAGG52929_A/chicken/Bangladesh/12VIR-7140-11/2012_H5N1_2012/03/18_NA_2012.21'[&!name="A/chicken/Bangladesh/12VIR-7140-11/2012"]
+	'cdsAGG52936_A/chicken/Bangladesh/12VIR-7140-18/2012_H5N1_2012/03/21_NA_2012.22'[&!name="A/chicken/Bangladesh/12VIR-7140-18/2012"]
+	'cdsAGG52934_A/chicken/Bangladesh/12VIR-7140-16/2012_H5N1_2012/03/13_NA_2012.20'[&!name="A/chicken/Bangladesh/12VIR-7140-16/2012"]
+	'cdsAFJ18987_A/chicken/Yangon/182/2010_H5N1_2010/02/_NA_2010.12'[&!name="A/chicken/Yangon/182/2010"]
+	'cdsAEN94598_A/chicken/Lao/LH2/2010_H5N1_2010/05/_NA_2010.37'[&!name="A/chicken/Lao/LH2/2010"]
+	'cdsBAM62171_A/chicken/Aichi/T1/2011_H5N1_2011/01/_NA_2011.04'[&!name="A/chicken/Aichi/T1/2011"]
+	'cdsBAM62229_A/chicken/Miyazaki/11/2011_H5N1_2011/02/_NA_2011.12'[&!name="A/chicken/Miyazaki/11/2011"]
+	'cdsBAM62219_A/chicken/Miyazaki/9/2011_H5N1_2011/02/_NA_2011.12'[&!name="A/chicken/Miyazaki/9/2011"]
+	'cdsBAM62182_A/chicken/Miyazaki/N7/2011_H5N1_2011/01/_NA_2011.04'[&!name="A/chicken/Miyazaki/N7/2011"]
+	'cdsBAM62274_A/chicken/Miyazaki/12/2011_H5N1_2011/02/_NA_2011.12'[&!name="A/chicken/Miyazaki/12/2011"]
+	'cdsBAM62162_A/chicken/Kagoshima/I-2/2011_H5N1_2011/01/_NA_2011.04'[&!name="A/chicken/Kagoshima/I-2/2011"]
+	'cdsAER09706_A/chicken/Korea/SJ378/2011_H5N1_2011/01/_NA_2011.04'[&!name="A/chicken/Korea/SJ378/2011"]
+	'cdsBAM62153_A/chicken/Miyazaki/S4/2011_H5N1_2011/01/_NA_2011.04'[&!name="A/chicken/Miyazaki/S4/2011"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (((((((((((((((((('cdsCAM59159_A/chicken/Nigeria/FA6/2006_H5N1_2006//_NA_2006.50':0.0023947268,((('cdsADB25528_A/chicken/Nigeria/08RS848-104/2007_H5N1_2007/08/10_NA_2007.61':0.004910519,'cdsADB26133_A/chicken/Nigeria/08RS848-83/2007_H5N1_2007/03/27_NA_2007.23':0.0024572389)[&support=0.932]:0.0073610359,'cdsABV53541_A/chicken/Nigeria/1071-15/2007_H5N1_2007//_NA_2007.50':0.0115564809)[&support=0.0]:5.109E-7,'cdsADB25748_A/chicken/Nigeria/08RS848-33/2006_H5N1_2006/07/19_NA_2006.55':0.012290827)[&support=0.0]:2.221E-7)[&support=0.762]:0.0023015207,((('cdsABV53511_A/chicken/Nigeria/1071-7/2007_H5N1_2007//_NA_2007.50':0.0023086475,('cdsABV53481_A/chicken/Nigeria/1071-3/2007_H5N1_2007//_NA_2007.50':0.002308105,'cdsADB26210_A/chicken/Nigeria/08RS848-93/2007_H5N1_2007/07/21_NA_HAS_G147R_2007.55'[&!color=#-6750208]:0.014746)[&support=0.928,!name="0.93"]:0.0068948935)[&support=0.79,!rotate=true]:0.0022925103,'cdsCAM59156_A/chicken/Nigeria/AB13/2006_H5N1_2006//_NA_2006.50':2.85E-7)[&support=0.838]:0.0022904052,'cdsADB25649_A/chicken/Nigeria/08RS848-14/2006_H5N1_2006/06/07_NA_2006.43':1.0E-8)[&support=0.755]:0.0022920031)[&support=0.9]:0.0046119011,('cdsCAK18584_A/chicken/Nigeria/SO300/2006_H5N1_2006//_NA_2006.50':0.0090399992,(((((((('cdsAFW18427_A/chicken/Menofia/CAI36/2010_H5N1_2010/04/21_NA_2010.30':0.013734837,('cdsADW01439_A/chicken/Egypt/09534S-NLQP/2009_H5N1_2009/05/_NA_2009.37':2.805E-7,'cdsAFW18229_A/chicken/Sharkia/CAI3/2009_H5N1_2009/09/01_NA_2009.67'[&!rotate=true]:0.0045590963)[&support=0.0,!rotate=true]:2.522E-7)[&support=0.0,!rotate=false]:1.792E-7,('cdsCBW54820_A/chicken/Egypt/Q1185/2010_H5N1_2010//_NA_2010.50':0.0092107316,'cdsAFH53768_A/chicken/Egypt/Kalyobia-18-CLEVB/2011_H5N1_2011/02/10_NA_HAS_G147R_2011.11'[&!color=#-6750208]:0.0409248831)[&support=0.858,!name="0.86",!rotate=false]:0.0045433627)[&support=0.0,!rotate=true]:2.655E-7,('cdsADW01454_A/chicken/Egypt/10127s/2010_H5N1_2010/02/_NA_2010.12':0.0092815345,'cdsAGF37889_A/chicken/Kalyobia/CLEVB-5/2010_H5N1_2010/12/_NA_2010.95':0.0245722402)[&support=0.915,!rotate=true]:0.0069541803)[&support=0.989,!name="0.99",!rotate=false]:0.01143769,('cdsAFW17325_A/chicken/Sharkia/CAI16/2009_H5N1_2009/06/01_NA_2009.42':0.0091597683,'cdsAFW17414_A/chicken/Menofia/CAI34/2010_H5N1_2010/04/21_NA_2010.30':2.391E-7)[&support=0.0]:2.626E-7)[&support=0.831,!rotate=false]:0.0022793244,'cdsAFW17381_A/chicken/Menofia/CAI29/2009_H5N1_2009/10/01_NA_2009.75':0.0045662092)[&support=0.0]:2.624E-7,('cdsADW01456_A/chicken/Egypt/10135ss/2010_H5N1_2010/03/_NA_2010.20':0.0336340153,('cdsBAK23433_A/chicken/Egypt/RIMD29-1/2009_H5N1_2009/02/_NA_2009.13':0.0045613891,'cdsAFW18295_A/chicken/Qalubia/CAI12/2008_H5N1_2008/06/30_NA_2008.50':1.0E-8)[&support=0.916,!name="0.92",!collapse={"collapsed",0.07932960910000005}]:0.0068203311)[&support=0.752,!rotate=true]:0.0023224374)[&support=0.0]:1.785E-7,'cdsACR56194_A/chicken/Egypt/0815-NLQP/2008_H5N1_2008/01/05_NA_2008.01'[&!rotate=true]:0.0052895115)[&support=0.999]:0.0229752232,(((('cdsAFK13806_A/chicken/Egypt/112SG/2011_H5N1_2011/01/04_NA_2011.01':0.0244369314,'cdsADW01442_A/chicken/Egypt/1029/2010_H5N1_2010/01/_NA_2010.04':0.0086916153)[&support=0.918]:0.0106049634,('cdsADW01418_A/chicken/Egypt/092-NLQP/2009_H5N1_2009/01/_NA_2009.04':0.0048161645,'cdsADW01430_A/chicken/Egypt/0987-NLQP/2009_H5N1_2009/05/_NA_2009.37':0.0092514309)[&support=0.0]:2.641E-7)[&support=0.977]:0.023838731,'cdsADW01437_A/chicken/Egypt/09279S-NLQP/2009_H5N1_2009/04/_NA_2009.29':0.0509966859)[&support=0.889,!name="0.89",!collapse={"collapsed",0.044886225899999965}]:0.0098304633,('cdsACR56213_A/chicken/Egypt/0875S-NLQP/2008_H5N1_2008/01/06_NA_2008.01':0.0258962783,'cdsABV24032_A/chicken/Egypt/3/2006_H5N1_2006//_NA_2006.50':0.0022764278)[&support=0.0,!rotate=false]:2.134E-7)[&support=0.77,!rotate=false]:0.0024118534)[&support=0.36]:0.0022678075)[&support=0.96]:0.0093305369)[&support=0.0]:2.751E-7,((((('cdsADM33973_A/chicken/Bangladesh/1151-11/2010_H5N1_2010//_NA_2010.50':2.835E-7,'cdsAEO00210_A/chicken/Bhutan/248006/2010_H5N1_2010/02/17_NA_2010.13':0.0025605059)[&support=0.999]:0.0395124119,'cdsACN90965_A/chicken/Assam/140187/2008_H5N1_2008/11/20_NA_2008.89':0.0287099953)[&support=0.774]:0.0040568512,('cdsACV90500_A/chicken/India/WB-NIV96526/2009_H5N1_2009/05/23_NA_2009.39':0.016143566,'cdsACY06553_A/chicken/West_Bengal/170564/2009_H5N1_2009/03/09_NA_2009.19':0.0022870422)[&support=1.0]:0.0348716334)[&support=0.92]:0.0072113011,'cdsADB25352_A/chicken/Nigeria/08VIR4337-344/2008_H5N1_2008/07/16_NA_2008.54':0.024768856)[&support=0.744]:0.0023326828,'cdsACI87706_A/chicken/Astana/6/2005_H5N1_2005/06/_NA_2005.45':0.002292207)[&support=0.977,!name="0.98",!collapse={"collapsed",0.05554552870000001}]:0.0115030759)[&support=0.992]:0.0185063332,(('cdsACK57573_A/chicken/Vietnam/NCVD-093/2008_H5N1_2008//_NA_2008.50':0.0562800537,('cdsADG59217_A/chicken/Xinjiang/28/2006_H5N1_2006//_NA_2006.50':0.0068827893,'cdsADG59223_A/chicken/Xinjiang/67/2005_H5N1_2005//_NA_2005.50':0.0022687338)[&support=1.0]:0.0304740814)[&support=0.668]:0.0072252883,'cdsBAD89307_A/chicken/Yamaguchi/7/2004_H5N1_2004//_NA_2004.50':0.0229023372)[&support=0.732]:0.0024825158)[&support=0.924]:0.0069703272,(('cdsADG59236_A/chicken/Shandong/A-10/2006_H5N1_2006//_NA_2006.50':0.113937568,'cdsAAZ14224_A/Chicken/Shantou/810/05_H5N1_2005//_NA_2005.50':0.0556425734)[&support=0.633]:0.0029805085,((((((((((('cdsBAN42591_A/chicken/Soc_Trang/2/2012_H5N1_2012/06/17_NA_2012.46':0.0278713661,'cdsAEN68792_A/chicken/Cambodia/008LC1/2011_H5N1_2011/01/27_NA_2011.07':0.0104695044)[&support=0.938]:0.010377415,'cdsAEN68785_A/chicken/Cambodia/TKCMB1F/2010_H5N1_2010/01/28_NA_2010.08':0.0022813628)[&support=1.0]:0.0666277752,'cdsABE97688_A/chicken/Vietnam/135/2004_H5N1_2004//_NA_2004.50':0.0141726804)[&support=0.836]:0.004251657,'cdsAAZ72711_A/chicken/Viet_Nam/TG-023/2004_H5N1_2004//_NA_2004.50':0.0045684082)[&support=0.0]:1.741E-7,'cdsADQ92425_A/chicken/Cambodia/013LC2b/2005_H5N1_2005//_NA_2005.50':0.0189073515)[&support=0.932]:0.0068599433,'cdsABE97669_A/chicken/Vietnam/348/2005_H5N1_2005//_NA_2005.50':0.0184328988)[&support=0.0]:2.241E-7,(((('cdsACX54906_A/chicken/Thailand/CU-354/2008_H5N1_2008/11/14_NA_2008.87':0.0394342971,'cdsAGJ73019_A/chicken/Saraburi/10713/2005_H5N1_2005//_NA_2005.50':0.0113936989)[&support=0.731]:0.0023727458,'cdsBAG80843_A/chicken/Suphanburi/NIAH7540/2004_H5N1_2004//_NA_2004.50':0.004523179)[&support=0.984]:0.0159832798,'cdsBAG80850_A/chicken/Phichit/NIAH606988/2006_H5N1_2006//_NA_2006.50':0.0231492699)[&support=0.745]:0.0024216953,(('cdsABQ41366_A/chicken/Thailand/vsmu-3-BKK/2004_H5N1_2004//_NA_2004.50':0.0022743541,'cdsAAZ29982_A/chicken/Suphanburi-Thailand/CU-1/04_H5N1_2004//_NA_2004.50':1.0E-8)[&support=0.0]:2.644E-7,'cdsBAG80832_A/chicken/Kalasin/NIAH316/2004_H5N1_2004//_NA_2004.50':0.0299461047)[&support=0.0]:2.645E-7)[&support=0.996]:0.0183952544)[&support=0.0]:3.879E-7,'cdsAAS87578_A/chicken/Vietnam/HD1/2004_H5N1_2004//_NA_2004.50':0.0427204972)[&support=0.995,!name="1.00",!rotate=true,!collapse={"collapsed",0.0}]:0.0325199828,'cdsABI96702_A/chicken/Henan/wu/2004_H5N1_2004//_NA_2004.50':2.727E-7)[&support=0.492,!rotate=false]:0.0022877679,('cdsADG59204_A/chicken/Anhui/39/2004_H5N1_2004//_NA_HAS_G147R_2004.50'[&!color=#-6750208]:1.0E-8,'cdsADG59211_A/chicken/Gansu/44/2004_H5N1_2004//_NA_HAS_G147R_2004.50'[&!color=#-6750208]:0.0068531575)[&support=1.0,!name="1.00",!color=#-6750208]:0.0562150682)[&support=0.0]:2.046E-7,(('cdsAAX53527_A/chicken/Henan/12/2004_H5N1_2004//_NA_2004.50':2.254E-7,'cdsAAX53525_A/chicken/Henan/01/2004_H5N1_2004//_NA_2004.50':0.0022865842)[&support=0.922]:0.0045842393,'cdsAAV48545_A/chicken/Hubei/489/2004_H5N1_2004//_NA_2004.50':0.0045780844)[&support=0.0]:5.578E-7)[&support=0.82]:0.0022873522)[&support=0.0]:1.981E-7)[&support=0.982,!name="0.98"]:0.0138677457,((('cdsABU98998_A/Chicken/Indonesia/Wates126/2005_H5N1_2005//_NA_2005.50':0.021491589,('cdsABI36025_A/chicken/Indonesia/CDC25/2005_H5N1_2005/10/04_NA_2005.76':0.0447257738,(('cdsADB07939_A/chicken/West_Java/Smi-M1/2008_H5N1_2008/06/20_NA_2008.47':0.0360664038,'cdsAGJ73130_A/chicken/Tana_Toraja/BBVM-1/2007_H5N1_2007/11/07_NA_2007.85':0.0354382001)[&support=0.901]:0.0067149509,(('cdsAGK72251_A/chicken/Denpasar/BBVD-291/2007_H5N1_2007/06/14_NA_2007.45':0.0068978945,('cdsAGK72286_A/chicken/Badung/BBVD-205/2007_H5N1_2007/05/15_NA_2007.37':0.0091909339,'cdsAGK72284_A/chicken/Klungkung/BBVD-484/2007_H5N1_2007/08/23_NA_2007.64':0.0022946528)[&support=0.0]:2.663E-7)[&support=0.989]:0.0162038609,((('cdsAGJ73112_A/chicken/Tanah_Datar/BPPVRII-365/2007_H5N1_2007/06/14_NA_2007.45':0.0045901505,'cdsAGJ73097_A/chicken/Pesisir_Selatan/BPPVRII-119/2007_H5N1_2007/03/07_NA_2007.18':0.0022913023)[&support=0.0]:2.635E-7,'cdsAGJ73116_A/chicken/Kuantan_Singingi/BPPVRII-620/2007_H5N1_2007/10/25_NA_2007.81':0.0115500321)[&support=0.967]:0.0092373508,'cdsABU99136_A/Chicken/Indonesia/Padang1631-1/2006_H5N1_2006//_NA_2006.50':0.0046363434)[&support=0.901]:0.0068566777)[&support=0.866]:0.0046400439)[&support=0.935]:0.0098141782)[&support=0.577]:0.0044637909)[&support=0.95]:0.0115682886,(('cdsAGJ73096_A/chicken/Tebing/BPPVRI-72/2008_H5N1_2008/02/21_NA_2008.14':0.0066348596,'cdsABU99057_A/Chicken/Padang/BPPV11/2006_H5N1_2006//_NA_2006.50':0.0410302821)[&support=0.983]:0.0194167746,'cdsABE97656_A/chicken/Pangkalpinang/BPPV3/2004_H5N1_2004//_NA_2004.50':0.0057217667)[&support=0.964]:0.0136406563)[&support=0.742]:0.0020820166,'cdsABE97635_A/chicken/Malang/BBVet-IV/2004_H5N1_2004//_NA_2004.50':0.0304055364)[&support=0.903,!name="0.90",!collapse={"collapsed",0.0791131872}]:0.0116692772)[&support=0.869]:0.0078945092,(('cdsAEI26192_A/chicken/Vietnam/27262/2009_H5N1_2009/04/29_NA_2009.33':0.0494751099,'cdsADM53381_A/chicken/Eastern_China/JX036/2009_H5N1_2009//_NA_2009.50':0.0549914516)[&support=0.993,!name="0.99",!collapse={"collapsed",0.07752600580000002}]:0.0311370039,'cdsABJ51742_A/chicken/Viet_Nam/10/2005_H5N1_2005//_NA_2005.50':0.0068253264)[&support=0.992]:0.0223844838)[&support=0.999]:0.0285126753,('cdsADM53383_A/chicken/Eastern_China/XH222/2008_H5N1_2008//_NA_2008.50'[&!color=#-16777216]:0.0354516776,'cdsACN39517_A/chicken/Hunan/3157/2006_H5N1_2006/11/30_NA_2006.91'[&!color=#-16777216]:0.0211941475)[&support=0.853,!color=#-16777216]:0.0073763974)[&support=0.99]:0.0201193908,'cdsACZ36753_A/chicken/Ninh_Binh/209/2005_H5N1_2005//_NA_2005.50':0.0022933527)[&support=0.736,!rotate=true]:0.002212477,(('cdsAGG52937_A/chicken/Bangladesh/12VIR-7140-19/2012_H5N1_2012/03/25_NA_2012.23':0.0308470696,(((((('cdsAGG52927_A/chicken/Bangladesh/12VIR-7140-8/2012_H5N1_2012/02/14_NA_2012.12':0.009299037,'cdsAGG52924_A/chicken/Bangladesh/12VIR-7140-5/2012_H5N1_2012/01/21_NA_2012.05':0.0095567272)[&support=0.755]:0.0023073161,('cdsAGG52932_A/chicken/Bangladesh/12VIR-7140-14/2012_H5N1_2012/04/03_NA_2012.25':0.0359783726,('cdsAGG52928_A/chicken/Bangladesh/12VIR-7140-10/2012_H5N1_2012/03/05_NA_2012.18':0.0190322773,(('cdsAGG52926_A/chicken/Bangladesh/12VIR-7140-7/2012_H5N1_2012/01/19_NA_2012.05':0.0185194385,('cdsAGS08978_A/chicken/India/09CA01/2011_H5N1_2011/09/_NA_2011.70':0.0023261603,'cdsAGG52920_A/chicken/Bangladesh/12VIR-7140-1/2011_H5N1_2011/12/19_NA_HAS_G147R_2011.96'[&!color=#-6750208]:0.0211904839)[&support=0.0]:1.64E-7)[&support=0.811]:0.0022944441,('cdsAEX91697_A/chicken/India/TR0383/2011_H5N1_2011/03/06_NA_2011.18':0.0045957308,('cdsAEX91691_A/chicken/India/CL03485/2011_H5N1_2011/03/06_NA_2011.18':2.368E-7,'cdsAEX91693_A/chicken/India/CA0301/2011_H5N1_2011/03/06_NA_2011.18':1.0E-8)[&support=0.0]:1.929E-7)[&support=0.852,!collapse={"collapsed",0.033583181599999984}]:0.0022946658)[&support=0.0]:2.128E-7)[&support=0.0]:2.761E-7)[&support=0.0]:2.28E-7)[&support=0.0]:1.985E-7,(('cdsAGG52921_A/chicken/Bangladesh/12VIR-7140-2/2012_H5N1_2012/01/02_NA_HAS_G147R_2012.00'[&!color=#-6750208]:2.736E-7,'cdsAGG52922_A/chicken/Bangladesh/12VIR-7140-3/2012_H5N1_2012/01/08_NA_HAS_G147R_2012.02'[&!color=#-6750208]:1.0E-8)[&support=0.959,!color=#-6750208]:0.0116883086,'cdsAGG52925_A/chicken/Bangladesh/12VIR-7140-6/2012_H5N1_2012/02/14_NA_HAS_G147R_2012.12'[&!color=#-6750208]:0.0071104907)[&support=0.963,!name="0.96",!color=#-6750208,!rotate=true]:0.0117224245)[&support=0.0]:1.665E-7,'cdsAGG52930_A/chicken/Bangladesh/12VIR-7140-12/2012_H5N1_2012/03/27_NA_2012.24':0.0168148377)[&support=0.0,!rotate=true]:1.835E-7,('cdsAGG52929_A/chicken/Bangladesh/12VIR-7140-11/2012_H5N1_2012/03/18_NA_2012.21':0.0095131521,'cdsAGG52936_A/chicken/Bangladesh/12VIR-7140-18/2012_H5N1_2012/03/21_NA_2012.22':0.0151032499)[&support=0.988,!name="0.99",!rotate=false,!collapse={"collapsed",0.005228764699999999}]:0.020142829)[&support=0.0]:1.632E-7,'cdsAGG52934_A/chicken/Bangladesh/12VIR-7140-16/2012_H5N1_2012/03/13_NA_2012.20'[&!rotate=false]:0.018621891)[&support=0.729,!rotate=true]:0.0020344563)[&support=1.0,!name="1.00",!rotate=true]:0.0645311257,('cdsAFJ18987_A/chicken/Yangon/182/2010_H5N1_2010/02/_NA_2010.12':0.020449614,'cdsAEN94598_A/chicken/Lao/LH2/2010_H5N1_2010/05/_NA_2010.37':0.0333657785)[&support=0.963,!name="0.96",!collapse={"collapsed",0.057171086699999984}]:0.0165037236)[&support=0.971]:0.0169615713)[&support=1.0,!name="1.00",!collapse={"collapsed",0.008801737500000018}]:0.0847450806,'cdsBAM62171_A/chicken/Aichi/T1/2011_H5N1_2011/01/_NA_2011.04':0.0112864472)[&support=0.966]:0.0143321064,'cdsBAM62229_A/chicken/Miyazaki/11/2011_H5N1_2011/02/_NA_2011.12':0.004672357)[&support=0.751]:0.0022372123,'cdsBAM62219_A/chicken/Miyazaki/9/2011_H5N1_2011/02/_NA_2011.12':0.0138860233)[&support=0.0]:1.91E-7,'cdsBAM62182_A/chicken/Miyazaki/N7/2011_H5N1_2011/01/_NA_2011.04':0.0045981513)[&support=0.0]:2.688E-7,'cdsBAM62274_A/chicken/Miyazaki/12/2011_H5N1_2011/02/_NA_2011.12':0.004601827)[&support=0.0]:2.55E-7,'cdsBAM62162_A/chicken/Kagoshima/I-2/2011_H5N1_2011/01/_NA_2011.04':0.0045976557)[&support=0.0]:2.253E-7,'cdsAER09706_A/chicken/Korea/SJ378/2011_H5N1_2011/01/_NA_2011.04':0.0046417443,'cdsBAM62153_A/chicken/Miyazaki/S4/2011_H5N1_2011/01/_NA_2011.04':0.0046001314);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#-1;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#-16777216;
+	set appearance.selectionColour=#-2144520576;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Names";
+	set branchLabels.fontName="Arial";
+	set branchLabels.fontSize=10;
+	set branchLabels.fontStyle=1;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="support";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=true;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Abadi MT Condensed Extra Bold";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=0.05;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=false;
+	set scaleBar.fontSize=12.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=2.0;
+	set scaleBar.scaleRange=0.05;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

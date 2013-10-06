@@ -1,0 +1,114 @@
+A/Montreal/MTL63446/2000
+A/Montreal/MTL29/2000
+A/Montreal/MTL63748/2000
+A/Montreal/MTL63816/2000
+A/Montreal/MTL45/2000
+A/Montreal/MTL169/2000
+A/Montreal/MTL327/2000
+A/Kansas/13/2009
+A/Cheongju/H396/2007
+A/Utah/10/2012
+A/Ontario/1252/2007
+A/Cheongju/H407/2008
+A/TW/875/04
+A/TW/3286/03
+A/Western Australia/13/2001
+A/New York/435/2000
+A/West Virginia/06/2011
+A/Ontario/RV1273/2005
+A/Taiwan/718/2006
+A/Taiwan/645/2006
+A/Fujian/411/02-like
+A/Pernambuco/120434/2012
+A/Malaysia/23329/2002
+A/Malaysia/23721/2002
+A/Malaysia/23995/2003
+A/Malaysia/23582/2002
+A/Malaysia/23637/2002
+A/Malaysia/22387/2002
+A/Wisconsin/28/2011
+A/South Dakota/03/2008
+A/Iowa/CEID23/2005
+A/Switzerland/5165/2010
+A/Jiangsu/ALS1/2011
+A/California/05/2010
+A/Hawaii/03/2010
+A/Arkansas/09/2009
+A/Denmark/14/2001
+A/Denmark/36/2001
+A/New York/307/2001
+A/England/192/2000
+A/New York/146/2000
+A/Chile/4795/2000
+A/South Australia/25/2000
+A/South Australia/26/2000
+A/South Australia/29/2000
+A/South Australia/30/2000
+A/South Australia/36/2000
+A/South Australia/39/2000
+A/South Australia/40/2000
+A/South Australia/44/2000
+A/South Australia/45/2000
+A/South Australia/46/2000
+A/South Australia/51/2000
+A/South Australia/55/2000
+A/South Australia/56/2000
+A/South Australia/57/2000
+A/South Australia/58/2000
+A/South Australia/63/2000
+A/South Australia/64/2000
+A/Lyon/651/2001
+A/Taiwan/30020/2002
+A/Taiwan/30017/2002
+A/mallard/Iowa/3195/2009
+A/mallard/New Jersey/AI09-5086/2009
+A/mallard/California/2525V/2011
+A/mallard/Iowa/3205/2009
+A/ruddy turnstone/New Jersey/AI00-1049/2000
+A/laughing gull/New York/AI00-470/2000
+A/shorebird/Delaware Bay/259/2000
+A/quail/Hong Kong/SF104/2001
+A/quail/Hong Kong/F8611/2001
+A/quail/Nanchang/12-340/2000
+A/turkey/France/05016/2005
+A/turkey/Chile/28317-6504-3/2009
+A/chicken/Thailand/ICRC-V586/2008
+A/chicken/Thailand/NS-342/2008
+A/chicken/Vietnam/KG88/2008
+A/Thailand/271/2005
+A/South Dakota/13/2009
+A/Taiwan/2984/2002
+A/Texas/UR06-0468/2007
+A/Taiwan/191/2006
+A/shorebird/Delaware Bay/321/2009
+A/ruddy turnstone/New Jersey/AI09-1071/2009
+A/shorebird/Delaware Bay/318/2009
+A/mallard/Ohio/11OS2045/2011
+A/gull/Delaware Bay/18/2000
+A/Montreal/MTL63286/2000
+A/Kolkata/77/2005
+A/Taiwan/601/2005
+A/Hanoi/209/2002
+A/green-winged teal/New Brunswick/00331/2010
+A/shorebird/Delaware Bay/275/2009
+A/mallard/Ohio/11OS2146/2011
+Mixed
+mixed
+A/Chicken/Hong Kong/YU563/01
+A/Montreal/MTL63963/2000
+A/Montreal/MTL8/2000
+A/Denmark/6/2001
+A/Cambodia/QO69/2006
+A/Maine/06/2011
+A/Indiana/10/2011
+A/Indiana/08/2011
+A/Iowa/09/2011
+A/Montana/17/2009
+A/Denmark/17/2001
+A/Denmark/40/2001
+A/chicken/Guangxi/2448/2004
+A/chicken/Guangxi/2439/2004
+A/Japan/415/2008
+A/Japan/455/2008
+A/Japan/579/2008
+A/Japan/889/2009

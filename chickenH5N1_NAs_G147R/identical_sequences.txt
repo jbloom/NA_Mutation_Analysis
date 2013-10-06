@@ -1,0 +1,566 @@
+The following sequences are identical or substrings:
+cds:AAZ72707 A/chicken/Viet Nam/VL-008/2004 H5N1 2004// NA
+cds:AAZ72708 A/chicken/Viet Nam/AG-010/2004 H5N1 2004// NA
+cds:AAU08352 A/chicken/Viet Nam/HauGiang-617/2004 H5N1 2004// NA
+cds:ACA04632 A/chicken/Vietnam/15/2004 H5N1 2004// NA
+
+The following sequences are identical or substrings:
+cds:AAX53527 A/chicken/Henan/12/2004 H5N1 2004// NA
+cds:AAX53529 A/chicken/Henan/16/2004 H5N1 2004// NA
+cds:AAX53528 A/chicken/Henan/13/2004 H5N1 2004// NA
+
+The following sequences are identical or substrings:
+cds:ABL08314 A/chicken/Fujian/10313/2005 H5N1 2005// NA
+cds:ABL08312 A/chicken/Fujian/9821/2005 H5N1 2005// NA
+cds:ABL08313 A/chicken/Fujian/10039/2005 H5N1 2005// NA
+
+The following sequences are identical or substrings:
+cds:BAM62284 A/chicken/Nara/1/2011 H5N1 2011/02/ NA
+cds:BAM62256 A/chicken/Wakayama/1/2011 H5N1 2011/02/ NA
+cds:BAM62210 A/chicken/Miyazaki/8/2011 H5N1 2011/02/ NA
+
+The following sequences are identical or substrings:
+cds:ACF36778 A/chicken/Thailand/ICRC-213/2007 H5N1 2007/08/23 NA
+cds:ACE73583 A/chicken/Thailand/ICRC-195/2007 H5N1 2007// NA
+
+The following sequences are identical or substrings:
+cds:ADB25704 A/chicken/Nigeria/08RS848-22/2006 H5N1 2006/06/28 NA
+cds:ADB25693 A/chicken/Nigeria/08RS848-21/2006 H5N1 2006/06/28 NA
+
+The following sequences are identical or substrings:
+cds:ACA21634 A/chicken/Kuwait/KISR9/2007 H5N1 2007// NA
+cds:ACA21568 A/chicken/Kuwait/KISR2/2007 H5N1 2007// NA
+cds:ACA21579 A/chicken/Kuwait/KISR3/2007 H5N1 2007// NA
+
+The following sequences are identical or substrings:
+cds:ACM17289 A/chicken/Primorsky/85/2008 H5N1 2008/04/08 NA
+cds:ACD62245 A/chicken/Primorje/1/2008 H5N1 2008/04/10 NA
+
+The following sequences are identical or substrings:
+cds:AGK72279 A/chicken/Jembrana/BBVD-298b/2007 H5N1 2007/06/18 NA
+cds:AGK72298 A/chicken/Jembrana/BBVD-298/2007 H5N1 2007/06/18 NA
+
+The following sequences are identical or substrings:
+cds:ACA21590 A/chicken/Kuwait/KISR5/2007 H5N1 2007// NA
+cds:ACA21601 A/chicken/Kuwait/KISR6/2007 H5N1 2007// NA
+
+The following sequences are identical or substrings:
+cds:AFW17325 A/chicken/Sharkia/CAI16/2009 H5N1 2009/06/01 NA
+cds:AFW18372 A/chicken/Giza/CAI22/2008 H5N1 2008/06/30 NA
+
+The following sequences are identical or substrings:
+cds:ABB86286 A/chicken/Tula/10/2005 H5N1 2005// NA
+cds:ABG78555 A/chicken/Tula/Russia/Oct-5/2005 H5N1 2005// NA
+
+The following sequences are identical or substrings:
+cds:BAL61228 A/chicken/South Kalimantan/UT521/2010 H5N1 2010/07/ NA
+cds:BAL61227 A/chicken/EastKalimantan/UT511/2010 H5N1 2010/04/ NA
+
+The following sequences are identical or substrings:
+cds:BAJ07758 A/chicken/Egypt/C1Lu9/2007 H5N1 2007/03/ NA
+cds:BAK08622 A/chicken/Egypt/CL6/2007 H5N1 2007/03/ NA
+
+The following sequences are identical or substrings:
+cds:ACN41791 A/chicken/Sihala/NARC3303.4/2006 H5N1 2006// NA
+cds:AEH26079 A/chicken/Pakistan/NARC-228/2006 H5N1 2006// NA
+
+The following sequences are identical or substrings:
+cds:ACR49550 A/chicken/Laos/31/2006 H5N1 2006// NA
+cds:ADD97086 A/Chicken/Laos/Xaythiani 26/2006 H5N1 2006// NA
+
+The following sequences are identical or substrings:
+cds:ADL57397 A/chicken/Egypt/9402-CLEVB213/2007 H5N1 2007// NA
+cds:ACB72445 A/chicken/Israel/1055/2008 H5N1 2008// NA
+cds:AFW18240 A/chicken/Qalubia/CAI5/2008 H5N1 2008/06/30 NA
+cds:AFW18186 A/chicken/Menofia/CAI42/2009 H5N1 2009/05/25 NA
+cds:ACR56199 A/chicken/Egypt/0845-NLQP/2008 H5N1 2008/01/18 NA
+cds:AFW18175 A/chicken/Sharkia/CAI41/2009 H5N1 2009/05/25 NA
+cds:AFW18383 A/chicken/Giza/CAI23/2008 H5N1 2008/06/30 NA
+cds:AFW17370 A/chicken/Menofia/CAI28/2009 H5N1 2009/10/01 NA
+cds:ACR56208 A/chicken/Egypt/0879-NLQP/2008 H5N1 2008/05/14 NA
+cds:AFW18251 A/chicken/Giza/CAI6/2008 H5N1 2008/07/01 NA
+cds:ACR56191 A/chicken/Egypt/07632S-NLQP/2007 H5N1 2007/12/06 NA
+cds:ACR56203 A/chicken/Egypt/0865-NLQP/2008 H5N1 2008/02/06 NA
+cds:AFW18317 A/chicken/Giza/CAI15/2008 H5N1 2008/06/01 NA
+cds:AFW17359 A/chicken/Sharkia/CAI27/2009 H5N1 2009/11/01 NA
+cds:ACR56188 A/chicken/Egypt/07202-NLQP/2007 H5N1 2007/12/19 NA
+cds:AFW17392 A/chicken/Menofia/CAI30/2010 H5N1 2010/03/01 NA
+
+The following sequences are identical or substrings:
+cds:AFW18262 A/chicken/Giza/CAI7/2008 H5N1 2008/03/01 NA
+cds:AFW18361 A/chicken/Qalubia/CAI21/2008 H5N1 2008/06/30 NA
+cds:AFW18306 A/chicken/Qalubia/CAI14/2008 H5N1 2008/03/01 NA
+cds:AFW18394 A/chicken/Giza/CAI24/2008 H5N1 2008/09/30 NA
+cds:AFW18273 A/chicken/Giza/CAI8/2008 H5N1 2008/04/01 NA
+cds:AFW18197 A/chicken/Menofia/CAI43/2009 H5N1 2009/05/25 NA
+
+The following sequences are identical or substrings:
+cds:AFW18229 A/chicken/Sharkia/CAI3/2009 H5N1 2009/09/01 NA
+cds:AFW18438 A/chicken/Sharkia/CAI38/2009 H5N1 2009/05/20 NA
+
+The following sequences are identical or substrings:
+cds:CAQ58534 A/chicken/Nigeria/EKI15/2007 H5N1 2007// NA
+cds:ADB25517 A/chicken/Nigeria/08RS848-102/2007 H5N1 2007/08/02 NA
+
+The following sequences are identical or substrings:
+cds:AGH55433 A/chicken/India/81753/2008 H5N1 2008/01/19 NA
+cds:AEX40660 A/chicken/West Bengal/81537/2008 H5N1 2008/01/18 NA
+
+The following sequences are identical or substrings:
+cds:AAZ72706 A/chicken/Viet Nam/TN-025/2004 H5N1 2004// NA
+cds:ABY51583 A/chicken/Vietnam/10/2004 H5N1 2004// NA
+
+The following sequences are identical or substrings:
+cds:ABJ98950 A/chicken/Jalgaon/8824/2006 H5N1 2006// NA
+cds:ADB93835 A/chicken/Nandurbar/7979/2006 H5N1 2006/02/ NA
+cds:ADY72660 A/chicken/Nandurbar/7966/2006 H5N1 2006/02/ NA
+
+The following sequences are identical or substrings:
+cds:BAD89307 A/chicken/Yamaguchi/7/2004 H5N1 2004// NA
+cds:ACZ36756 A/chicken/Yamaguchi/7/2004 H5N1 2004// NA
+
+The following sequences are identical or substrings:
+cds:ABO52723 A/chicken/Afghanistan/1573-7/2006 H5N1 2006// NA
+cds:ABO44225 A/chicken/Afghanistan/1573-92/2006 H5N1 2006// NA
+
+The following sequences are identical or substrings:
+cds:AGJ73100 A/chicken/Padang/BPPVRII-151/2007 H5N1 2007/03/26 NA
+cds:AGJ73099 A/chicken/Bukittinggi/BPPVRII-178-C/2007 H5N1 2007/03/26 NA
+cds:AGJ73104 A/chicken/Batam/BPPVRII-188/2007 H5N1 2007/04/02 NA
+cds:AGJ73120 A/chicken/Agam/BPPVRII-694/2007 H5N1 2007/11/28 NA
+cds:AGJ73113 A/chicken/Pariaman/BPPVRII-370/2007 H5N1 2007/06/15 NA
+
+The following sequences are identical or substrings:
+cds:ABI95319 A/chicken/Nigeria/641/2006 H5N1 2006// NA
+cds:ABF50833 A/chicken/Nigeria/641/2006 H5N1 2006/01/17 NA
+
+The following sequences are identical or substrings:
+cds:AEH59139 A/chicken/Bantul/BBVW-446-24456/2007 H5N1 2007/07/12 NA
+cds:AGK72278 A/chicken/Jembrana/BBVD-273/2007 H5N1 2007/06/08 NA
+
+The following sequences are identical or substrings:
+cds:ADC29449 A/chicken/West Bengal/148713/2009 H5N1 2009/01/ NA
+cds:ACV90498 A/chicken/India/WB-NIV16924/2009 H5N1 2009/01/02 NA
+
+The following sequences are identical or substrings:
+cds:ABI96702 A/chicken/Henan/wu/2004 H5N1 2004// NA
+cds:AAX53526 A/chicken/Henan/210/2004 H5N1 2004// NA
+
+The following sequences are identical or substrings:
+cds:ABU99057 A/Chicken/Padang/BPPV11/2006 H5N1 2006// NA
+cds:ABU99058 A/Chicken/Paulau Rampang/BPPV11/2006 H5N1 2006// NA
+
+The following sequences are identical or substrings:
+cds:ABQ41366 A/chicken/Thailand/vsmu-3-BKK/2004 H5N1 2004// NA
+cds:ADK22438 A/chicken/Thailand/ICRC-7356/2010 H5N1 2010/03/24 NA
+cds:ABW89591 A/chicken/Thailand/ICRC-V143/2007 H5N1 2007// NA
+cds:ADK22437 A/chicken/Thailand/ICRC-7372/2010 H5N1 2010/03/24 NA
+
+The following sequences are identical or substrings:
+cds:AAZ72711 A/chicken/Viet Nam/TG-023/2004 H5N1 2004// NA
+cds:ACF22444 A/chicken/Vietnam/830/2004 H5N1 2004// NA
+
+The following sequences are identical or substrings:
+cds:ABE97635 A/chicken/Malang/BBVet-IV/2004 H5N1 2004// NA
+cds:ABE97646 A/chicken/Purwakarta/BBVet-IV/2004 H5N1 2004// NA
+
+The following sequences are identical or substrings:
+cds:ABL08290 A/chicken/Guiyang/3721/2005 H5N1 2005// NA
+cds:ABL08291 A/chicken/Guiyang/4059/2005 H5N1 2005// NA
+
+The following sequences are identical or substrings:
+cds:AAZ29982 A/chicken/Suphanburi-Thailand/CU-1/04 H5N1 2004// NA
+cds:AAV65827 A/chicken/Thailand/CH-2/2004 H5N1 2004// NA
+cds:AAZ29991 A/chicken/Chachoengsao/Thailand/CU-11/04 H5N1 2004// NA
+cds:AAZ29986 A/chicken/Bangkok/Thailand/CU-6/04 H5N1 2004// NA
+cds:AAZ29992 A/chicken/Nakhon Sawan/Thailand/CU-12/04 H5N1 2004// NA
+cds:BAG80834 A/chicken/Kohn Kaen/NIAH330/2004 H5N1 2004// NA
+
+The following sequences are identical or substrings:
+cds:AEK65139 A/chicken/Vietnam/949B/2004 H5N1 2004// NA
+cds:ACF76215 A/chicken/Vietnam/NCVD09/2005 H5N1 2005// NA
+
+The following sequences are identical or substrings:
+cds:ACV90500 A/chicken/India/WB-NIV96526/2009 H5N1 2009/05/23 NA
+cds:ACZ81595 A/chicken/West Bengal/193936/2009 H5N1 2009/05/ NA
+
+The following sequences are identical or substrings:
+cds:AFW18295 A/chicken/Qalubia/CAI12/2008 H5N1 2008/06/30 NA
+cds:AFW17335 A/chicken/Qalubia/CAI18/2008 H5N1 2008/06/30 NA
+cds:AFW18350 A/chicken/Qalubia/CAI20/2008 H5N1 2008/06/30 NA
+
+The following sequences are identical or substrings:
+cds:ABU68855 A/chicken/Vietnam/TY31/2005 H5N1 2005// NA
+cds:ABJ53586 A/chicken/Viet Nam/17/2005 H5N1 2005// NA
+
+The following sequences are identical or substrings:
+cds:AGJ73063 A/chicken/Yogyakarta/BBVW-294/2007 H5N1 2007/05/31 NA
+cds:AGJ73061 A/chicken/Klaten/BBVW-290/2007 H5N1 2007/05/30 NA
+cds:AGJ73050 A/chicken/Garut/BBVW-223/2007 H5N1 2007/05/05 NA
+
+The following sequences are identical or substrings:
+cds:BAN42591 A/chicken/Soc Trang/2/2012 H5N1 2012/06/17 NA
+cds:BAN28806 A/chicken/Soc Trang/4/2012 H5N1 2012/06/07 NA
+cds:BAN16471 A/chicken/Soc Trang/5/2012 H5N1 2012/06/17 NA
+cds:BAN16460 A/chicken/Soc Trang/3/2012 H5N1 2012/06/17 NA
+
+The following sequences are identical or substrings:
+cds:AGJ73129 A/chicken/Pinrang/BBVM-2/2007 H5N1 2007/08/20 NA
+cds:AGJ73126 A/chicken/Pinrang/BBVM-1/2007 H5N1 2007/07/20 NA
+cds:AGJ73125 A/chicken/Pare Pare/BBVM-1/2007 H5N1 2007/06/15 NA
+
+The following sequences are identical or substrings:
+cds:ADB25825 A/chicken/Nigeria/08RS848-42/2006 H5N1 2006/11/10 NA
+cds:ADB25891 A/chicken/Nigeria/08RS848-52/2006 H5N1 2006/12/13 NA
+cds:ADB25902 A/chicken/Nigeria/08RS848-54/2006 H5N1 2006/12/31 NA
+cds:ADB25836 A/chicken/Nigeria/08RS848-44/2006 H5N1 2006/11/28 NA
+
+The following sequences are identical or substrings:
+cds:ACR49058 A/chicken/East Java/UT6017/2006 H5N1 2006/11/ NA
+cds:ACR49053 A/chicken/Banten/UT6025/2006 H5N1 2006/10/ NA
+cds:ACR49060 A/chicken/East Java/UT6023/2006 H5N1 2006/11/ NA
+
+The following sequences are identical or substrings:
+cds:ABL08258 A/chicken/Hong Kong/947/2006 H5N1 2006// NA
+cds:ACZ45157 A/chicken/Hong Kong/D-06-0947/2006 H5N1 2006// NA
+
+The following sequences are identical or substrings:
+cds:CAQ58533 A/chicken/Nigeria/OYO14/2007 H5N1 2007// NA
+cds:ADB25572 A/chicken/Nigeria/08RS848-115/2007 H5N1 2007/09/06 NA
+
+The following sequences are identical or substrings:
+cds:ABJ51698 A/chicken/Viet Nam/9/2005 H5N1 2005// NA
+cds:ABJ51709 A/chicken/Viet Nam/8/2005 H5N1 2005// NA
+cds:ABJ51720 A/chicken/Viet Nam/6/2005 H5N1 2005// NA
+
+The following sequences are identical or substrings:
+cds:ABU99051 A/Chicken/Salam/BBPV11/2005 H5N1 2005// NA
+cds:ABU99054 A/Chicken/Rokan Hilli/BPPV11/2005 H5N1 2005// NA
+
+The following sequences are identical or substrings:
+cds:AEF29984 A/chicken/Bhutan/248009/2010 H5N1 2010/02/20 NA
+cds:AEO00221 A/chicken/Bhutan/248007/2010 H5N1 2010/02/17 NA
+
+The following sequences are identical or substrings:
+cds:ABO47852 A/chicken/Egypt/1890N3-HK45/2007 H5N1 2007// NA
+cds:ABO47853 A/chicken/Egypt/1891N3-CLEVB/2007 H5N1 2007// NA
+
+The following sequences are identical or substrings:
+cds:ADB26133 A/chicken/Nigeria/08RS848-83/2007 H5N1 2007/03/27 NA
+cds:ADB26078 A/chicken/Nigeria/08RS848-76/2007 H5N1 2007/03/09 NA
+
+The following sequences are identical or substrings:
+cds:AGJ73092 A/chicken/Siantar/BPPVRI-231-2/2008 H5N1 2008/04/07 NA
+cds:AGJ73091 A/chicken/Siantar/BPPVRI-231-1/2008 H5N1 2008/04/07 NA
+
+The following sequences are identical or substrings:
+cds:ABQ14467 A/chicken/Israel/397/2006 H5N1 2006// NA
+cds:ABV23939 A/chicken/Egypt/1/2006 H5N1 2006// NA
+cds:ABV23937 A/chicken/Egypt/2/2006 H5N1 2006// NA
+cds:BAK23420 A/chicken/Egypt/RIMD8-7/2008 H5N1 2008/09/ NA
+cds:BAK23421 A/chicken/Egypt/RIMD9-2/2008 H5N1 2008/04/ NA
+
+The following sequences are identical or substrings:
+cds:ADB26177 A/chicken/Nigeria/08RS848-90/2007 H5N1 2007/07/17 NA
+cds:ADB26188 A/chicken/Nigeria/08RS848-91/2007 H5N1 2007/07/24 NA
+
+The following sequences are identical or substrings:
+cds:ACZ36750 A/chicken/Bac Lieu/07-10/2007 H5N1 2007// NA
+cds:ACJ14952 A/chicken/Vietnam/NCVD-10/2007 H5N1 2007// NA
+
+The following sequences are identical or substrings:
+cds:BAM85824 A/chicken/Indonesia/UT3091/2005 H5N1 2005// NA
+cds:ACR49049 A/chicken/Central Java/UT3091/2005 H5N1 2005// NA
+
+The following sequences are identical or substrings:
+cds:BAK23433 A/chicken/Egypt/RIMD29-1/2009 H5N1 2009/02/ NA
+cds:BAK23432 A/chicken/Egypt/RIMD28-3/2009 H5N1 2009/02/ NA
+cds:BAK23429 A/chicken/Egypt/RIMD25-1/2009 H5N1 2009/01/ NA
+cds:BAK23425 A/chicken/Egypt/RIMD13-1/2008 H5N1 2008/10/ NA
+cds:BAK23427 A/chicken/Egypt/RIMD21-1/2009 H5N1 2009/01/ NA
+cds:BAK23419 A/chicken/Egypt/RIMD6-1/2006 H5N1 2006/02/ NA
+
+The following sequences are identical or substrings:
+cds:AGJ73034 A/chicken/West Java/Sbg-09/2006 H5N1 2006/02/26 NA
+cds:AGJ73033 A/chicken/West Java/Sbg-08/2006 H5N1 2006/01/20 NA
+
+The following sequences are identical or substrings:
+cds:AGK72284 A/chicken/Klungkung/BBVD-484/2007 H5N1 2007/08/23 NA
+cds:AGK72282 A/chicken/Klungkung/BBVD-417/2007 H5N1 2007/08/06 NA
+
+The following sequences are identical or substrings:
+cds:AAZ14224 A/Chicken/Shantou/810/05 H5N1 2005// NA
+cds:ACG50700 A/chicken/Guangdong/1/2005 H5N1 2005// NA
+
+The following sequences are identical or substrings:
+cds:ABC66704 A/chicken/Kulon Progo/BBVet-XII-1/2004 H5N1 2004// NA
+cds:ABE97643 A/chicken/Kulon Progo/BBVet-XII-2/2004 H5N1 2004// NA
+
+The following sequences are identical or substrings:
+cds:AGK72290 A/chicken/Badung/BBVD-288/2007 H5N1 2007/06/13 NA
+cds:AGK72281 A/chicken/Klungkung/BBVD-279/2007 H5N1 2007/06/12 NA
+
+The following sequences are identical or substrings:
+cds:ACZ36753 A/chicken/Ninh Binh/209/2005 H5N1 2005// NA
+cds:ACG58530 A/chicken/Vietnam/209/2005 H5N1 2005/12/08 NA
+cds:ACG58497 A/chicken/Vietnam/212/2005 H5N1 2005/12/09 NA
+
+The following sequences are identical or substrings:
+cds:AGK72252 A/chicken/Denpasar/BBVD-331/2007 H5N1 2007/07/05 NA
+cds:AGK72293 A/chicken/Badung/BBVD-328/2007 H5N1 2007/07/03 NA
+
+The following sequences are identical or substrings:
+cds:CAQ65115 A/chicken/Germany/R3234/2007 H5N1 2007// NA
+cds:CAQ65122 A/chicken/Germany/R3272/2007 H5N1 2007// NA
+
+The following sequences are identical or substrings:
+cds:CAM59159 A/chicken/Nigeria/FA6/2006 H5N1 2006// NA
+cds:CAM59154 A/chicken/Nigeria/FA7/2006 H5N1 2006// NA
+
+The following sequences are identical or substrings:
+cds:BAG80850 A/chicken/Phichit/NIAH606988/2006 H5N1 2006// NA
+cds:AGJ73021 A/chicken/Pichit/606988/2006 H5N1 2006// NA
+cds:ABK13781 A/chicken/Thailand/PC-168/2006 H5N1 2006// NA
+
+The following sequences are identical or substrings:
+cds:AEN94596 A/chicken/Lao/LH1B/2010 H5N1 2010/05/ NA
+cds:AEN94590 A/chicken/Lao/LH1/2010 H5N1 2010/05/ NA
+
+The following sequences are identical or substrings:
+cds:ADB25385 A/chicken/Nigeria/08VIR4337-380/2006 H5N1 2006/02/21 NA
+cds:ADB25374 A/chicken/Nigeria/08VIR4337-378/2006 H5N1 2006/02/21 NA
+
+The following sequences are identical or substrings:
+cds:AGH55517 A/chicken/India/85459/2008 H5N1 2008/01/30 NA
+cds:AGH55493 A/chicken/India/82616/2008 H5N1 2008/01/24 NA
+cds:ACZ58103 A/chicken/India/WB-NIV2664/2008 H5N1 2008/01/22 NA
+
+The following sequences are identical or substrings:
+cds:ACR49050 A/chicken/East Java/UT6016/2006 H5N1 2006/11/ NA
+cds:ACR49055 A/chicken/East Java/UT6031/2007 H5N1 2007/01/ NA
+cds:ACR49051 A/chicken/East Java/UT6019/2006 H5N1 2006/11/ NA
+
+The following sequences are identical or substrings:
+cds:ABE97654 A/chicken/Kupang-3-NTT/BPPV6/2004 H5N1 2004// NA
+cds:ABE97651 A/chicken/Mangarai-NTT/BPPV6/2004 H5N1 2004// NA
+cds:ABE97649 A/chicken/Bangli Bali/BBPV6-1/2004 H5N1 2004// NA
+cds:ABE97648 A/chicken/Bangli Bali/BPPV6-2/2004 H5N1 2004// NA
+cds:ABE97653 A/chicken/Kupang-2-NTT/BPPV6/2004 H5N1 2004// NA
+
+The following sequences are identical or substrings:
+cds:AEH26087 A/chicken/Pakistan/SPVC-5/2007 H5N1 2007// NA
+cds:AEH26085 A/chicken/Pakistan/SPVC-20/2008 H5N1 2008// NA
+
+The following sequences are identical or substrings:
+cds:ADB25528 A/chicken/Nigeria/08RS848-104/2007 H5N1 2007/08/10 NA
+cds:ADB26232 A/chicken/Nigeria/08RS848-96/2007 H5N1 2007/08/03 NA
+cds:ADB26221 A/chicken/Nigeria/08RS848-94/2007 H5N1 2007/07/19 NA
+
+The following sequences are identical or substrings:
+cds:AEC33238 A/chicken/Pakistan-Khi/NARC-520/2008 H5N1 2008/01/08 NA
+cds:AEH26095 A/chicken/Pakistan/SPVC-8/2008 H5N1 2008// NA
+cds:AEC33246 A/chicken/Pakistan-Khi/NARC-612/2008 H5N1 2008/04/15 NA
+cds:AEH26081 A/chicken/Pakistan/SPVC-15/2008 H5N1 2008// NA
+cds:AEH26089 A/chicken/Pakistan/SPVC-7/2007 H5N1 2007// NA
+
+The following sequences are identical or substrings:
+cds:AGJ73116 A/chicken/Kuantan Singingi/BPPVRII-620/2007 H5N1 2007/10/25 NA
+cds:AGJ73108 A/chicken/Padang Panjang/BPPVRII-272/2007 H5N1 2007/05/07 NA
+cds:AGJ73118 A/chicken/Siak/BPPVRII-635/2007 H5N1 2007/11/05 NA
+
+The following sequences are identical or substrings:
+cds:ABU99136 A/Chicken/Indonesia/Padang1631-1/2006 H5N1 2006// NA
+cds:ABU99137 A/Chicken/Indonesia/Siak1631-2/2006 H5N1 2006// NA
+cds:ABU99138 A/Chicken/Indonesia/Agam1631-3/2006 H5N1 2006/06/01 NA
+
+The following sequences are identical or substrings:
+cds:ABL08302 A/chicken/Shantou/3923/2006 H5N1 2006// NA
+cds:ABL08301 A/chicken/Shantou/3840/2006 H5N1 2006// NA
+
+The following sequences are identical or substrings:
+cds:CBW54820 A/chicken/Egypt/Q1185/2010 H5N1 2010// NA
+cds:CBW54821 A/chicken/Egypt/Q1011/2010 H5N1 2010// NA
+
+The following sequences are identical or substrings:
+cds:BAJ07759 A/chicken/Egypt/C1Li27/2007 H5N1 2007/03/ NA
+cds:BAJ07757 A/chicken/Egypt/C1Tr1/2007 H5N1 2007/03/ NA
+cds:BAJ11932 A/chicken/Egypt/C3Br10/2007 H5N1 2007/03/ NA
+
+The following sequences are identical or substrings:
+cds:AAZ72710 A/chicken/Viet Nam/CT-018/2004 H5N1 2004// NA
+cds:AAZ72713 A/chicken/Viet Nam/HCM-022/2004 H5N1 2004// NA
+
+The following sequences are identical or substrings:
+cds:AEX91693 A/chicken/India/CA0301/2011 H5N1 2011/03/06 NA
+cds:AEX91689 A/chicken/India/CA0303/2011 H5N1 2011/03/06 NA
+cds:AEX91695 A/chicken/India/CA0302/2011 H5N1 2011/03/06 NA
+cds:AFO82815 A/chicken/India/03CL488/2011 H5N1 2011/03/05 NA
+
+The following sequences are identical or substrings:
+cds:BAL61233 A/chicken/EastKalimantan/UT582/2010 H5N1 2010/07/ NA
+cds:BAL61232 A/chicken/EastKalimantan/UT581/2010 H5N1 2010/06/ NA
+
+The following sequences are identical or substrings:
+cds:AAZ72714 A/chicken/Viet Nam/DN-045/2004 H5N1 2004// NA
+cds:AAT73331 A/chicken/Viet Nam/33/2004 H5N1 2004// NA
+cds:AAZ72715 A/chicken/Viet Nam/KG-076/2004 H5N1 2004// NA
+cds:ABY51594 A/chicken/Vietnam/23/2004 H5N1 2004// NA
+cds:AAZ72709 A/chicken/Viet Nam/DT-015/2004 H5N1 2004// NA
+
+The following sequences are identical or substrings:
+cds:ABU98996 A/Chicken/Indonesia/Wates77/2005 H5N1 2005// NA
+cds:ABH09781 A/chicken/Indonesia/77/2005 H5N1 2005// NA
+
+The following sequences are identical or substrings:
+cds:ACR49054 A/chicken/South Kalimantan/UT6029/2006 H5N1 2006/11/ NA
+cds:ABU99060 A/Chicken/Sembawa/BPPV111/2005 H5N1 2005// NA
+
+The following sequences are identical or substrings:
+cds:ACR49045 A/chicken/Bali/UT2091/2005 H5N1 2005// NA
+cds:ACR49052 A/chicken/East Java/UT6021/2006 H5N1 2006/11/ NA
+
+The following sequences are identical or substrings:
+cds:AAZ30004 A/chicken/Saraburi Thailand/CU-27/2004 H5N1 2004// NA
+cds:AAV41003 A/chicken/Ayutthaya/Thailand/CU-23/04 H5N1 2004// NA
+
+The following sequences are identical or substrings:
+cds:CAQ58530 A/chicken/Nigeria/LAG6/2007 H5N1 2007// NA
+cds:ADB25561 A/chicken/Nigeria/08RS848-111/2007 H5N1 2007/09/03 NA
+cds:ADB26155 A/chicken/Nigeria/08RS848-88/2007 H5N1 2007/07/07 NA
+
+The following sequences are identical or substrings:
+cds:ABQ45863 A/chicken/India/NIV33491/06 H5N1 2006// NA
+cds:ABQ45853 A/chicken/India/NIV33487/06 H5N1 2006// NA
+
+The following sequences are identical or substrings:
+cds:ADB25792 A/chicken/Nigeria/08RS848-4/2006 H5N1 2006/02/17 NA
+cds:ADB25396 A/chicken/Nigeria/08VIR4337-387/2006 H5N1 2006/02/25 NA
+cds:ADB25484 A/chicken/Nigeria/08RS848-1/2006 H5N1 2006/02/14 NA
+
+The following sequences are identical or substrings:
+cds:AAS87578 A/chicken/Vietnam/HD1/2004 H5N1 2004// NA
+cds:AAS87581 A/chicken/Vietnam/HD2/2004 H5N1 2004// NA
+
+The following sequences are identical or substrings:
+cds:AEN68785 A/chicken/Cambodia/TKCMB1F/2010 H5N1 2010/01/28 NA
+cds:AEN68784 A/chicken/Cambodia/TKCMB8F/2010 H5N1 2010/01/28 NA
+cds:AEN68783 A/chicken/Cambodia/TKCMB5T/2010 H5N1 2010/01/28 NA
+
+The following sequences are identical or substrings:
+cds:ACN90965 A/chicken/Assam/140187/2008 H5N1 2008/11/20 NA
+cds:ACN90967 A/chicken/Assam/140203/2008 H5N1 2008/11/20 NA
+
+The following sequences are identical or substrings:
+cds:AFK13816 A/chicken/Egypt/115AD/2011 H5N1 2011/02/26 NA
+cds:AFK13818 A/chicken/Egypt/116AD/2011 H5N1 2011/03/01 NA
+
+The following sequences are identical or substrings:
+cds:ABU99132 A/Chicken/Laos/Xaythiani 36/2006 H5N1 2006// NA
+cds:ABU99133 A/Chicken/Laos/Xaythiani 37/2006 H5N1 2006// NA
+cds:ABU99130 A/Chicken/Laos/Xaythiani 26/2006 H5N1 2006// NA
+
+The following sequences are identical or substrings:
+cds:BAG34612 A/chicken/Laos/1/2008 H5N1 2008// NA
+cds:ACR49476 A/chicken/Laos/13/2008 H5N1 2008// NA
+
+The following sequences are identical or substrings:
+cds:AGJ73066 A/chicken/Cilegon/BBVW-361/2007 H5N1 2007/06/20 NA
+cds:AEH59190 A/chicken/Magelang/BBVW-680-74X/2007 H5N1 2007/09/21 NA
+
+The following sequences are identical or substrings:
+cds:AFW18427 A/chicken/Menofia/CAI36/2010 H5N1 2010/04/21 NA
+cds:AFW18449 A/chicken/Menofia/CAI39/2010 H5N1 2010/03/03 NA
+cds:AFW18284 A/chicken/Menofia/CAI10/2010 H5N1 2010/09/01 NA
+
+The following sequences are identical or substrings:
+cds:AGJ73093 A/chicken/Deli Serdang/BPPVRI-238-1/2008 H5N1 2008/04/07 NA
+cds:AGJ73094 A/chicken/Deli Serdang/BPPVRI-238-2/2008 H5N1 2008/04/07 NA
+
+The following sequences are identical or substrings:
+cds:ABU99056 A/Chicken/Pakunbaru/BPPV11/2005 H5N1 2005// NA
+cds:ABU99052 A/Chicken/Murao Jambi/BPPV11/2005 H5N1 2005// NA
+
+The following sequences are identical or substrings:
+cds:AEN68790 A/chicken/Cambodia/PV025LC2/2010 H5N1 2010/04/23 NA
+cds:AEN68791 A/chicken/Cambodia/PV025LC4/2010 H5N1 2010/04/23 NA
+
+The following sequences are identical or substrings:
+cds:AGJ73057 A/chicken/Pati/BBVW-247/2007 H5N1 2007/05/14 NA
+cds:AGK72249 A/chicken/Denpasar/BBVD-145/2007 H5N1 2007/03/27 NA
+
+The following sequences are identical or substrings:
+cds:ABI95352 A/chicken/Sudan/1784-10/2006 H5N1 2006// NA
+cds:ABO52745 A/chicken/Sudan/2115-10/2006 H5N1 2006// NA
+
+The following sequences are identical or substrings:
+cds:BAM74061 A/village chicken/Kyaing Tong/2433/2007 H5N1 2007// NA
+cds:AFJ18957 A/chicken/Shan/2626/2007 H5N1 2007/12/ NA
+
+The following sequences are identical or substrings:
+cds:ADM95380 A/chicken/Cambodia/022LC1b/2005 H5N1 2005/02/09 NA
+cds:ABO30364 A/chicken/Cambodia/022LC3b/2005 H5N1 2005// NA
+cds:ABO30363 A/chicken/Cambodia/022LC2b/2005 H5N1 2005// NA
+
+The following sequences are identical or substrings:
+cds:BAM85826 A/chicken/Miyazaki/K11/2007 H5N1 2007// NA
+cds:ABW73788 A/chicken/Korea/CA7/2006 H5N1 2006// NA
+
+The following sequences are identical or substrings:
+cds:ABG88886 A/chicken/Navapur/India/7972/2006 H5N1 2006// NA
+cds:ABG88885 A/chicken/Navapur/India/7966/2006 H5N1 2006// NA
+
+The following sequences are identical or substrings:
+cds:ADM95379 A/chicken/Cambodia/047LC3b/2005 H5N1 2005/03/24 NA
+cds:ADM95375 A/chicken/Cambodia/047LC3/2005 H5N1 2005// NA
+
+The following sequences are identical or substrings:
+cds:ACR49059 A/chicken/East Java/UT6020/2006 H5N1 2006/11/ NA
+cds:ACR49048 A/chicken/Sulawesi Selatan/UT2094/2005 H5N1 2005// NA
+
+The following sequences are identical or substrings:
+cds:ACH43171 A/chicken/Jalgaon/12419/2006 H5N1 2006/02/18 NA
+cds:ACH43160 A/chicken/Jalgaon/13732/2006 H5N1 2006/02/21 NA
+cds:ACH43149 A/chicken/Jalgaon/13735/2006 H5N1 2006/02/25 NA
+
+The following sequences are identical or substrings:
+cds:ADM95377 A/chicken/Cambodia/LC1AL/2007 H5N1 2007/09/04 NA
+cds:AGJ73025 A/chicken/Cambodia/CMB07.71LC1/2007 H5N1 2007/04/09 NA
+cds:AGJ73027 A/chicken/Cambodia/CMB07.71LC3/2007 H5N1 2007/04/09 NA
+cds:ADM95376 A/chicken/Cambodia/LC3AL/2007 H5N1 2007/09/04 NA
+cds:AGJ73028 A/chicken/Cambodia/CMB07.71LC4/2007 H5N1 2007/04/09 NA
+
+The following sequences are identical or substrings:
+cds:ACZ58113 A/chicken/India/WB-NIV2806/2008 H5N1 2008/01/23 NA
+cds:AGH55481 A/chicken/India/82580/2008 H5N1 2008/01/23 NA
+
+The following sequences are identical or substrings:
+cds:AGK72292 A/chicken/Badung/BBVD-319ac/2007 H5N1 2007/06/25 NA
+cds:AGK72288 A/chicken/Badung/BBVD-219/2007 H5N1 2007/05/23 NA
+
+The following sequences are identical or substrings:
+cds:ABO44214 A/chicken/Afghanistan/1573-65/2006 H5N1 2006// NA
+cds:ABJ16810 A/chicken/Afghanistan/1207/2006 H5N1 2006// NA
+
+The following sequences are identical or substrings:
+cds:ACJ15095 A/chicken/Vietnam/NCVD-24/2007 H5N1 2007// NA
+cds:ACJ14996 A/chicken/Vietnam/NCVD-15/2007 H5N1 2007// NA
+
+The following sequences are identical or substrings:
+cds:AGK72294 A/chicken/Badung/BBVD-342/2007 H5N1 2007/07/11 NA
+cds:AGK72258 A/chicken/Denpasar/BBVD-509/2007 H5N1 2007/08/28 NA
+
+The following sequences are identical or substrings:
+cds:ABQ97194 A/chicken/Ghana/3158-NAMRU3/2007 H5N1 2007// NA
+cds:ABQ97196 A/chicken/Ghana/3160-NAMRU3/2007 H5N1 2007// NA
+cds:ABQ97195 A/chicken/Ghana/3159-NAMRU3/2007 H5N1 2007// NA
+
+The following sequences are identical or substrings:
+cds:BAM62176 A/chicken/Miyazaki/T10/2011 H5N1 2011/01/ NA
+cds:BAM62187 A/chicken/Miyazaki/TA3/2011 H5N1 2011/01/ NA
+cds:BAM62144 A/chicken/Miyazaki/M6/2011 H5N1 2011/01/ NA
+cds:BAM62279 A/chicken/Mie/2/2011 H5N1 2011/02/ NA
+
+The following sequences are identical or substrings:
+cds:ABI95341 A/chicken/Sudan/1784-7/2006 H5N1 2006// NA
+cds:ABO44258 A/chicken/Sudan/1784-8/2006 H5N1 2006// NA
+

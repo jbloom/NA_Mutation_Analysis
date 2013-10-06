@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.10: http://docutils.sourceforge.net/" />
+<title>NA_Mutation_Analysis</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7514 2012-09-14 14:27:12Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title, .code .error {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { color: grey; } /* line numbers */
+pre.code, code { background-color: #eeeeee }
+pre.code .comment, code .comment { color: #5C6576 }
+pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
+pre.code .literal.string, code .literal.string { color: #0C5404 }
+pre.code .name.builtin, code .name.builtin { color: #352B84 }
+pre.code .deleted, code .deleted { background-color: #DEB0A1}
+pre.code .inserted, code .inserted { background-color: #A3D289}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document" id="na-mutation-analysis">
+<h1 class="title">NA_Mutation_Analysis</h1>
+
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#summary" id="id1">Summary</a></li>
+<li><a class="reference internal" href="#software-used" id="id2">Software used</a></li>
+<li><a class="reference internal" href="#input-sequence-files" id="id3">Input sequence files</a></li>
+<li><a class="reference internal" href="#analysis-algorithm" id="id4">Analysis algorithm</a></li>
+<li><a class="reference internal" href="#pdmh1n1-nas-with-g147r" id="id5">pdmH1N1 NAs with G147R</a></li>
+<li><a class="reference internal" href="#seasonal-h1n1-nas-with-g147r" id="id6">seasonal H1N1 NAs with G147R</a></li>
+<li><a class="reference internal" href="#chicken-h5n1-nas-with-g147r" id="id7">chicken H5N1 NAs with G147R</a></li>
+</ul>
+</div>
+<div class="section" id="summary">
+<h1><a class="toc-backref" href="#id1">Summary</a></h1>
+<p>This is an analysis of the occurrences of the G147R mutation in influenza lineages with N1 neuraminidases (NAs). It examines the prevalence of this mutation in NA genes, and constructs phylogenetic trees.</p>
+<p>The G147R mutation is of interest because it confers receptor-binding activity on NA as described in <a class="reference external" href="http://www.ncbi.nlm.nih.gov/pubmed/24027333">Hooper and Bloom, 2013</a>. This analysis examines G147R in the three lineages that <a class="reference external" href="http://www.ncbi.nlm.nih.gov/pubmed/24027333">Hooper and Bloom, 2013</a> reported to contain G147R:</p>
+<ul class="simple">
+<li><a class="reference internal" href="#pdmh1n1-nas-with-g147r">pdmH1N1 NAs with G147R</a>: human 2009 swine-origin pandemic H1N1 lineage.</li>
+<li><a class="reference internal" href="#seasonal-h1n1-nas-with-g147r">seasonal H1N1 NAs with G147R</a>: human seasonal H1N1 (up through 2009, then this lineage went extinct).</li>
+<li><a class="reference internal" href="#chicken-h5n1-nas-with-g147r">chicken H5N1 NAs with G147R</a></li>
+</ul>
+<p>Note that the phylogenetic analysis here should be superior to that reported in <a class="reference external" href="http://www.ncbi.nlm.nih.gov/pubmed/24027333">Hooper and Bloom, 2013</a>. In that paper, the trees were built using protein sequences and only contained a subset of non-G147R sequences. Here the trees are built using codon sequences, and are constructed to ensure that the closest non-G147R neighbors of every G147R sequence is included.</p>
+<p>The source code and data for this analysis are available <a class="reference external" href="https://github.com/jbloom/NA_Mutation_Analysis">on GitHub</a>. You can download the analysis by clipping the the <em>Download ZIP</em> button on the right-hand side <a class="reference external" href="https://github.com/jbloom/NA_Mutation_Analysis">on GitHub</a>.</p>
+<p>This analysis was performed by <a class="reference external" href="http://research.fhcrc.org/bloom/en.html">Jesse Bloom</a>.</p>
+</div>
+<div class="section" id="software-used">
+<h1><a class="toc-backref" href="#id2">Software used</a></h1>
+<p>This analysis consists of a <a class="reference external" href="http://www.python.org/">Python</a> script. It has been tested with <a class="reference external" href="http://www.python.org/">Python</a> versions 2.6 and 2.7, and probably works with many other 2.* versions as well. The <a class="reference external" href="http://www.python.org/">Python</a> script is <em>mutation_analysis.py</em>. It uses functions defined in the module <em>mutation_analysis_funcs.py</em>.</p>
+<p>The analysis uses the EMBOSS <a class="reference external" href="http://emboss.sourceforge.net/apps/release/6.6/emboss/apps/needle.html">needle</a> program for pairwise alignments, EMBOSS version 6.5.7.0.</p>
+<p>The phylogenetic trees are built with <a class="reference external" href="http://sourceforge.net/projects/codonphyml/">codonPhyML</a> version 1.00 201306.18</p>
+<p>The trees are visualized using <a class="reference external" href="http://tree.bio.ed.ac.uk/software/figtree/">FigTree</a> version 1.4.0.</p>
+<p>The trees are re-rooted with <a class="reference external" href="http://tree.bio.ed.ac.uk/software/pathogen/">Path-O-Gen</a> version 1.4.</p>
+</div>
+<div class="section" id="input-sequence-files">
+<h1><a class="toc-backref" href="#id3">Input sequence files</a></h1>
+<p>Here is a summary of the input sequence data files used for the analysis. These are found in the subdirectory <tt class="docutils literal">./sequence_files/</tt> in the main repository <a class="reference external" href="https://github.com/jbloom/NA_Mutation_Analysis">on GitHub</a>:</p>
+<ul class="simple">
+<li><em>pdmH1N1_NAs.fasta</em> is the set of all human pandemic H1N1 influenza A NA protein-coding sequences as downloaded from the <a class="reference external" href="http://www.ncbi.nlm.nih.gov/genomes/FLU/FLU.html">Influenza Virus Resource</a> on October-4-2013.</li>
+<li><em>seasonalH1N1_NAs.fasta</em> is the set of all human seasonal H1N1 influenza A NA protein-coding sequences as downloaded from the <a class="reference external" href="http://www.ncbi.nlm.nih.gov/genomes/FLU/FLU.html">Influenza Virus Resource</a> on October-4-2013.</li>
+<li><em>chickenH5N1_NAs.fasta</em> is the set of all chicken H5N1 influenza A NA protein-coding sequences as downloaded from the <a class="reference external" href="http://www.ncbi.nlm.nih.gov/genomes/FLU/FLU.html">Influenza Virus Resource</a> on October-5-2013.</li>
+<li><em>outliers.txt</em> is a list of sequences that are strong outliers on the phylogenetic tree due to branch placement or molecular clock analysis of trees with <a class="reference external" href="http://tree.bio.ed.ac.uk/software/pathogen/">Path-O-Gen</a>. These sequences probably come from other lineages or are mis-annotated (for example, pdmH1N1 lineages that are labeled as seasonal H1N1). Any sequences in this file are excluded from analysis.</li>
+</ul>
+</div>
+<div class="section" id="analysis-algorithm">
+<h1><a class="toc-backref" href="#id4">Analysis algorithm</a></h1>
+<p>Here is a description of the algorithm used for the analysis. All of the steps of this analysis except for the final annotation of the phylogenetic trees for visual display are completely automated. So as long as you have installed the appropriate programs listed under <a class="reference internal" href="#software-used">Software used</a>, you can repeat this analysis by running the main <a class="reference external" href="http://www.python.org/">Python</a> script with the command:</p>
+<pre class="literal-block">
+python mutation_analysis.py
+</pre>
+<p>For each of the sequence sets, the script performs the following steps. The first seven steps are algorithmic. The final step involves opening the tree in <a class="reference external" href="http://tree.bio.ed.ac.uk/software/figtree/">FigTree</a> and manually annotating its appearance for better visual display.</p>
+<p>The analysis for each sequence set is performed in a separate subdirectory.</p>
+<p>The steps are:</p>
+<blockquote>
+<ol class="arabic">
+<li><p class="first">After removing any outliers specified in <em>outliers.txt</em>, all sequences of at least 1000 nucleotides are pairwise aligned to the reference sequence using <a class="reference external" href="http://emboss.sourceforge.net/apps/release/6.6/emboss/apps/needle.html">needle</a>, and any gaps relative to the reference sequence are removed. The nucleotide sequences are aligned from protein alignments. The alignments are in the files <em>cds_alignment.fasta</em> and <em>protein_alignments.fasta</em>.</p>
+</li>
+<li><p class="first">The names of all strains with the mutation of interest are written to the file <em>seqs_with_mutation.txt</em>.</p>
+</li>
+<li><p class="first">The counts of different amino-acid identities at the site of interest are written to the file <em>site_counts.txt</em>.</p>
+</li>
+<li><p class="first">For all sequence sets (with and without the mutation of interest), all sequences with dates before the specified cutoff year are removed.</p>
+</li>
+<li><p class="first">For all sequences <strong>without</strong> the mutation of interest, all redundant nucleotide sequences, sequences that are substrings of other sequences, or sequences with more than 100 gaps in the nucleotide alignment are removed. Lists of the names of sequences that are identical to other sequences are written to <em>identical_sequences.txt</em>.</p>
+</li>
+<li><p class="first">The sequences to retain for the phylogenetic analysis are then chosen. Retaining all of the sequences gives too many too build the trees, so just a subset is retained and written to <em>sequences_for_tree.txt</em>. The sequences that are retained are as follows:</p>
+<blockquote>
+<ol class="loweralpha simple">
+<li>All sequences <strong>with</strong> the mutation of interest.</li>
+<li>The &quot;closest&quot; sequences <strong>without</strong> the mutation to each sequence <strong>with</strong> the mutation of interest. The purpose of this subset is to make sure that the closest sequences without the mutation are also in the trees. For each sequence with the mutation of interest, the closest sequences without the mutation based on fractional nucleotide identity are identified. If multiple sequences are tied for closest, we keep them all. We then also keep a set number (specified below for each analysis) of additional next-closest sequences.</li>
+<li>A random sampling of a set number of additional sequences per year of sequences <strong>without</strong> the mutation. The number per year for each analysis is specified below. The purpose here is to give an additional sampling of sequences without the mutation.</li>
+</ol>
+</blockquote>
+</li>
+<li><p class="first"><a class="reference external" href="http://sourceforge.net/projects/codonphyml/">codonPhyML</a> is used to build a maximum-likelihood tree of the retained sequences. The tree is built using the <a class="reference external" href="http://mbe.oxfordjournals.org/content/11/5/725.full.pdf">Goldman and Yang 1994</a> codon model with a single transition-transversion ratio estimated by maximum likelihood, the <a class="reference external" href="http://www.plosone.org/article/info%3Adoi/10.1371/journal.pone.0011230">CF3x4</a> method for estimating the equilibrium codon frequencies empirically, and a single omega (the dN/dS ratio) estimated by maximum likelihood. The final tree is saved with the name <em>codonphyml_tree.newick</em>. The tree includes branch supports calculated using the <a class="reference external" href="http://sysbio.oxfordjournals.org/content/60/5/685.long">SH-aLRT</a> method.</p>
+</li>
+<li><p class="first">The last step is manual annotation of the phylogenetic tree for visual appearance. This does not change the result, but does make it easier to look at. The formatted tree is saved as <em>codonphmyl_tree_formatted.trees</em> in a format that can be opened by <a class="reference external" href="http://tree.bio.ed.ac.uk/software/figtree/">FigTree</a>. The branches and tips are colored based on the presence / absence of the mutation. The tree is re-rooted based on where an analysis with <a class="reference external" href="http://tree.bio.ed.ac.uk/software/pathogen/">Path-O-Gen</a> suggests that the root should be placed. Some clades are collapsed, and key branch supports are shown (these are the <a class="reference external" href="http://sysbio.oxfordjournals.org/content/60/5/685.long">SH-aLRT</a> values calculated by <a class="reference external" href="http://sourceforge.net/projects/codonphyml/">codonPhyML</a>). Finally, a PDF of each tree is saved with the name <em>codonphyml_tree_formatted.pdf</em>.</p>
+</li>
+</ol>
+</blockquote>
+</div>
+<div class="section" id="pdmh1n1-nas-with-g147r">
+<h1><a class="toc-backref" href="#id5">pdmH1N1 NAs with G147R</a></h1>
+<p>The subdirectory <tt class="docutils literal">./pdmH1N1_NAs_G147R/</tt> contains an analysis of G147R in viruses in the human 2009 pandemic H1N1 lineage.</p>
+<p>For the phylogenetic tree, in addition to the sequences with G147R, we retain the closest six sequences to each sequence with the mutation, and 10 randomly chosen sequences without the mutation per year. We keep sequences from 2009 and all subsequent years.</p>
+<p><strong>Overall summary:</strong> G147R is present in a few strains, but no evidence of evolutionary clusters. Some strains also have the intriguing G147E mutation.</p>
+<p>Here are the counts of the amino-acid identities at site 147:</p>
+<blockquote>
+<ul class="simple">
+<li>8400 have G</li>
+<li>3 have R</li>
+<li>5 have E</li>
+<li>1 has  X</li>
+</ul>
+</blockquote>
+<p>Here are all the sequences with G147R:</p>
+<pre class="literal-block">
+cds:ADN26074 A/Finland/614/2009 H1N1 2009/07/24 NA
+cds:AFE11259 A/Tianjinhedong/SWL44/2011 H1N1 2011/01/08 NA
+cds:AFN20030 A/Singapore/SGH02/2011 H1N1 2011/02/09 NA
+</pre>
+<p>Here is the tree (the file <tt class="docutils literal">./pdmH1N1_NAs_G147R/codonphyml_tree_formatted.pdf</tt>). If your browser does not display the PDF embedded in HTML, click on the link to see the PDF alone:</p>
+<div class="figure align-center">
+<a class="reference external image-reference" href="./pdmH1N1_NAs_G147R/codonphyml_tree_formatted.pdf"><img alt="./pdmH1N1_NAs_G147R/codonphyml_tree_formatted.pdf" src="./pdmH1N1_NAs_G147R/codonphyml_tree_formatted.pdf" /></a>
+<p class="caption">Maximum-likelihood phylogenetic tree of G147R in pdmH1N1. Sequences with G147R are colored red. Support values for key branches are shown (<a class="reference external" href="http://sysbio.oxfordjournals.org/content/60/5/685.long">SH-aLRT</a> support). Some nodes are collapsed for visual display.</p>
+</div>
+</div>
+<div class="section" id="seasonal-h1n1-nas-with-g147r">
+<h1><a class="toc-backref" href="#id6">seasonal H1N1 NAs with G147R</a></h1>
+<p>The subdirectory <tt class="docutils literal">./seasonalH1N1_NAs_G147R/</tt> contains an analysis of G147R in viruses in the human seasonal H1N1 lineage (which circulated from 1918 to 1957, and then 1957 to 2009 in humans).</p>
+<p>For the phylogenetic tree, in addition to the sequences with G147R, we retain the closest two sequences to each sequence with the mutation, and six randomly chosen sequences without the mutation per year. The tree includes only sequences from 2007 to 2009, because (with one exception) G147R only appeared starting in 2007.</p>
+<p><strong>Overall summary:</strong> G147R is present in 20 strains, with all but one of the occurrences in 2007 and later. There are some small phylogenetic clusters of G147R sequences.</p>
+<p>Here are the counts of the amino-acid identities at site 147:</p>
+<blockquote>
+<ul class="simple">
+<li>4654 have G</li>
+<li>20 have R</li>
+<li>5 have X</li>
+</ul>
+</blockquote>
+<p>Here are all the sequences with G147R:</p>
+<pre class="literal-block">
+cds:ABD78030 A/South Canterbury/59/2000 H1N1 2000/09/06 NA
+
+cds:ABX58495 A/Tennessee/UR06-0238/2007 H1N1 2007/02/12 NA
+cds:ACY01424 A/Hamedan/117/2007 H1N1 2007/11/25 NA
+cds:ACA33659 A/Texas/74/2007 H1N1 2007/11/26 NA
+
+cds:ADA69512 A/Austria/404821/2008 H1N1 2008/01/21 NA
+cds:ACM17331 A/Austria/404811/2008 H1N1 2008/01/21 NA
+cds:ADA69518 A/Austria/405179/2008 H1N1 2008/01/23 NA
+cds:ACI94940 A/Austria/406109/2008 H1N1 2008/01/27 NA
+cds:BAH22142 A/Yokohama/30/2008 H1N1 2008/01/28 NA
+cds:ACM90850 A/Johannesburg/279/2008 H1N1 2008/07/22 NA
+cds:ADP89155 A/Thailand/Siriraj-05/2008 H1N1 2008// NA
+cds:ADZ53071 A/Hong Kong/01045/2008 H1N1 2008// NA
+cds:ADP89151 A/Thailand/Siriraj-01/2008 H1N1 2008// NA
+cds:ADP89152 A/Thailand/Siriraj-02/2008 H1N1 2008// NA
+
+cds:ADC45782 A/Niigata/08F188/2009 H1N1 2009/01/26 NA
+cds:AET84319 A/Iraq/WRAIR1683P/2009 H1N1 2009/03/ NA
+cds:ADA71159 A/Novosibirsk/3/2009 H1N1 2009/04/ NA
+cds:ACU44235 A/Kentucky/08/2009 H1N1 2009/05/12 NA
+cds:ACU44027 A/Kentucky/08/2009 H1N1 2009/05/12 NA
+cds:ADZ53099 A/Hong Kong/17566/2009 H1N1 2009// NA
+</pre>
+<p>Here is the tree (the file <tt class="docutils literal">./seasonalH1N1_NAs_G147R/codonphyml_tree_formatted.pdf</tt>). If your browser does not display the PDF embedded in HTML, click on the link to see the PDF alone:</p>
+<div class="figure align-center">
+<a class="reference external image-reference" href="./seasonalH1N1_NAs_G147R/codonphyml_tree_formatted.pdf"><img alt="./seasonalH1N1_NAs_G147R/codonphyml_tree_formatted.pdf" src="./seasonalH1N1_NAs_G147R/codonphyml_tree_formatted.pdf" /></a>
+<p class="caption">Maximum-likelihood phylogenetic tree of G147R in seasonal H1N1. Sequences with G147R are colored red. Support values for key branches are shown (<a class="reference external" href="http://sysbio.oxfordjournals.org/content/60/5/685.long">SH-aLRT</a> support). Some nodes are collapsed for visual display.</p>
+</div>
+</div>
+<div class="section" id="chicken-h5n1-nas-with-g147r">
+<h1><a class="toc-backref" href="#id7">chicken H5N1 NAs with G147R</a></h1>
+<p>The subdirectory <tt class="docutils literal">./chickenH5N1_NAs_G147R/</tt> contains an analysis of G147R in viruses in chicken H5N1 viruses.</p>
+<p>For the phylogenetic tree, in addition to the sequences with G147R, we retain the closest four sequences to each sequence with the mutation, and 10 randomly chosen sequences without the mutation per year. The tree includes only sequences from 2004 and later because the first G147R virus in chicken H5N1 is an a sequence from 2004.</p>
+<p><strong>Overall summary:</strong> G147R is present in 8 strains. There are some small phylogenetic clusters of G147R sequences.</p>
+<p>Here are the counts of the amino-acid identities at site 147:</p>
+<blockquote>
+<ul class="simple">
+<li>1242 have G</li>
+<li>8 have R</li>
+<li>2 have E</li>
+</ul>
+</blockquote>
+<p>Here are the sequences with G147R:</p>
+<pre class="literal-block">
+cds:ADG59211 A/chicken/Gansu/44/2004 H5N1 2004// NA
+cds:ADG59204 A/chicken/Anhui/39/2004 H5N1 2004// NA
+cds:ADB26210 A/chicken/Nigeria/08RS848-93/2007 H5N1 2007/07/21 NA
+cds:AFH53768 A/chicken/Egypt/Kalyobia-18-CLEVB/2011 H5N1 2011/02/10 NA
+cds:AGG52920 A/chicken/Bangladesh/12VIR-7140-1/2011 H5N1 2011/12/19 NA
+cds:AGG52921 A/chicken/Bangladesh/12VIR-7140-2/2012 H5N1 2012/01/02 NA
+cds:AGG52922 A/chicken/Bangladesh/12VIR-7140-3/2012 H5N1 2012/01/08 NA
+cds:AGG52925 A/chicken/Bangladesh/12VIR-7140-6/2012 H5N1 2012/02/14 NA
+</pre>
+<p>Here is the tree (the file <tt class="docutils literal">./chickenH5N1_NAs_G147R/codonphyml_tree_formatted.pdf</tt>). If your browser does not display the PDF embedded in HTML, click on the link to see the PDF alone:</p>
+<div class="figure align-center">
+<a class="reference external image-reference" href="./chickenH5N1_NAs_G147R/codonphyml_tree_formatted.pdf"><img alt="./chickenH5N1_NAs_G147R/codonphyml_tree_formatted.pdf" src="./chickenH5N1_NAs_G147R/codonphyml_tree_formatted.pdf" /></a>
+<p class="caption">Maximum-likelihood phylogenetic tree of G147R in chicken H5N1. Sequences with G147R are colored red. Support values for key branches are shown (<a class="reference external" href="http://sysbio.oxfordjournals.org/content/60/5/685.long">SH-aLRT</a> support). Some nodes are collapsed for visual display.</p>
+</div>
+</div>
+</div>
+</body>
+</html>

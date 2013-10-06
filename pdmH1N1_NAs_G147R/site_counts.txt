@@ -1,0 +1,5 @@
+Counts of identities at residue 147:
+1 have X
+3 have R
+5 have E
+8400 have G
