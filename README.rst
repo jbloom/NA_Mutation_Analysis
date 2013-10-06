@@ -1,7 +1,3 @@
-=========================
-NA_Mutation_Analysis
-=========================
-
 .. contents:: Contents
    :depth: 2
 
@@ -99,6 +95,9 @@ For the phylogenetic tree, in addition to the sequences with G147R, we retain th
 
 **Overall summary:** G147R is present in a few strains, but no evidence of evolutionary clusters. Some strains also have the intriguing G147E mutation.
 
+Amino-acid counts at site 147
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Here are the counts of the amino-acid identities at site 147:
 
  * 8400 have G
@@ -109,12 +108,19 @@ Here are the counts of the amino-acid identities at site 147:
 
  * 1 has  X
 
+
+Sequences with G147R
+~~~~~~~~~~~~~~~~~~~~~~~
+
 Here are all the sequences with G147R::
 
     cds:ADN26074 A/Finland/614/2009 H1N1 2009/07/24 NA
     cds:AFE11259 A/Tianjinhedong/SWL44/2011 H1N1 2011/01/08 NA
     cds:AFN20030 A/Singapore/SGH02/2011 H1N1 2011/02/09 NA
 
+
+Phylogenetic tree
+~~~~~~~~~~~~~~~~~~
 
 Here is the tree (the file ``./pdmH1N1_NAs_G147R/codonphyml_tree_formatted.pdf``). If your browser does not display the PDF embedded in HTML, click on the link to see the PDF alone:
 
@@ -126,6 +132,17 @@ Here is the tree (the file ``./pdmH1N1_NAs_G147R/codonphyml_tree_formatted.pdf``
 
    Maximum-likelihood phylogenetic tree of G147R in pdmH1N1. Sequences with G147R are colored red. Support values for key branches are shown (`SH-aLRT`_ support). Some nodes are collapsed for visual display.
 
+Nearest-neighbors of A/Finland/614/2009
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The sequence closest in the NA phylogenetic tree to *A/Finland/614/2009* is *A/Singapore/TT278/2010* (*A/Indiana/17/2009* is equally close, but it has an ambiguous nucleotide identity). The NAs of *A/Finland/614/2009* and *A/Singapore/TT278/2010* differ by only a single amino-acid mutation: G147R. If you look at the ``./pdmH1N1_NAs_G147R/identical_sequences.txt`` file, you will see that there are a vast number of other strains with NAs that are identical to *A/Singapore/TT278/2010*, and so have an equally close relationship to *A/Finland/614/2009*. 
+
+How different are some of these sequences that differ only at G147R in their HA proteins? The HA of *A/Finland/614/2009* has an ambiguous amino acid at site *239* (in sequential 1, 2, numbering), which is equivalent to site *228* in the numbering scheme of PDB `4JTV`_ and site *225* in the numbering scheme of PDB `4HMG`_ (this last scheme is H3 numbering): It is unclear if this site is a glycine (*G*) or an aspartic acid (*D*). We can find sequences that differ in the NA proteins only by G147R and would have no differences in their HA for either of these identities:
+
+    * *A/England/415/2009* has an NA identical to *A/Singapore/TT278/2010* (differs from *A/Finland/614/2009* at the protein level only by G147R) and has an HA identical to the *D239* variant of the *A/Finland/614/2009* HA.
+
+    * *A/California/VRDL27/2009* has an NA identical to *A/Singapore/TT278/2010* (differs from *A/Finland/614/2009* at the protein level only by G147R) and has an HA identical to the *G239* variants of the *A/Finland/614/2009* HA.
+
 
 seasonal H1N1 NAs with G147R
 -------------------------------
@@ -136,6 +153,9 @@ For the phylogenetic tree, in addition to the sequences with G147R, we retain th
 
 **Overall summary:** G147R is present in 20 strains, with all but one of the occurrences in 2007 and later. There are some small phylogenetic clusters of G147R sequences.
 
+Amino-acid counts at site 147
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Here are the counts of the amino-acid identities at site 147:
 
  * 4654 have G
@@ -143,6 +163,9 @@ Here are the counts of the amino-acid identities at site 147:
  * 20 have R
 
  * 5 have X
+
+Sequences with G147R
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Here are all the sequences with G147R::
 
@@ -170,6 +193,10 @@ Here are all the sequences with G147R::
     cds:ACU44027 A/Kentucky/08/2009 H1N1 2009/05/12 NA
     cds:ADZ53099 A/Hong Kong/17566/2009 H1N1 2009// NA
 
+
+Phylogenetic tree
+~~~~~~~~~~~~~~~~~~
+
 Here is the tree (the file ``./seasonalH1N1_NAs_G147R/codonphyml_tree_formatted.pdf``). If your browser does not display the PDF embedded in HTML, click on the link to see the PDF alone:
 
 .. figure:: ./seasonalH1N1_NAs_G147R/codonphyml_tree_formatted.pdf
@@ -190,6 +217,9 @@ For the phylogenetic tree, in addition to the sequences with G147R, we retain th
 
 **Overall summary:** G147R is present in 8 strains. There are some small phylogenetic clusters of G147R sequences.
 
+Amino-acid counts at site 147
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Here are the counts of the amino-acid identities at site 147:
 
  * 1242 have G
@@ -197,6 +227,10 @@ Here are the counts of the amino-acid identities at site 147:
  * 8 have R
 
  * 2 have E
+
+
+Sequences with G147R
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Here are the sequences with G147R::
 
@@ -208,6 +242,9 @@ Here are the sequences with G147R::
     cds:AGG52921 A/chicken/Bangladesh/12VIR-7140-2/2012 H5N1 2012/01/02 NA
     cds:AGG52922 A/chicken/Bangladesh/12VIR-7140-3/2012 H5N1 2012/01/08 NA
     cds:AGG52925 A/chicken/Bangladesh/12VIR-7140-6/2012 H5N1 2012/02/14 NA
+
+Phylogenetic tree
+~~~~~~~~~~~~~~~~~~
 
 Here is the tree (the file ``./chickenH5N1_NAs_G147R/codonphyml_tree_formatted.pdf``). If your browser does not display the PDF embedded in HTML, click on the link to see the PDF alone:
 

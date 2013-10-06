@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="Docutils 0.10: http://docutils.sourceforge.net/" />
-<title>NA_Mutation_Analysis</title>
+<title></title>
 <style type="text/css">
 
 /*
@@ -323,23 +323,39 @@ ul.auto-toc {
 </style>
 </head>
 <body>
-<div class="document" id="na-mutation-analysis">
-<h1 class="title">NA_Mutation_Analysis</h1>
+<div class="document">
+
 
 <div class="contents topic" id="contents">
 <p class="topic-title first">Contents</p>
 <ul class="simple">
-<li><a class="reference internal" href="#summary" id="id1">Summary</a></li>
-<li><a class="reference internal" href="#software-used" id="id2">Software used</a></li>
-<li><a class="reference internal" href="#input-sequence-files" id="id3">Input sequence files</a></li>
-<li><a class="reference internal" href="#analysis-algorithm" id="id4">Analysis algorithm</a></li>
-<li><a class="reference internal" href="#pdmh1n1-nas-with-g147r" id="id5">pdmH1N1 NAs with G147R</a></li>
-<li><a class="reference internal" href="#seasonal-h1n1-nas-with-g147r" id="id6">seasonal H1N1 NAs with G147R</a></li>
-<li><a class="reference internal" href="#chicken-h5n1-nas-with-g147r" id="id7">chicken H5N1 NAs with G147R</a></li>
+<li><a class="reference internal" href="#summary" id="id7">Summary</a></li>
+<li><a class="reference internal" href="#software-used" id="id8">Software used</a></li>
+<li><a class="reference internal" href="#input-sequence-files" id="id9">Input sequence files</a></li>
+<li><a class="reference internal" href="#analysis-algorithm" id="id10">Analysis algorithm</a></li>
+<li><a class="reference internal" href="#pdmh1n1-nas-with-g147r" id="id11">pdmH1N1 NAs with G147R</a><ul>
+<li><a class="reference internal" href="#amino-acid-counts-at-site-147" id="id12">Amino-acid counts at site 147</a></li>
+<li><a class="reference internal" href="#sequences-with-g147r" id="id13">Sequences with G147R</a></li>
+<li><a class="reference internal" href="#phylogenetic-tree" id="id14">Phylogenetic tree</a></li>
+<li><a class="reference internal" href="#nearest-neighbors-of-a-finland-614-2009" id="id15">Nearest-neighbors of A/Finland/614/2009</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#seasonal-h1n1-nas-with-g147r" id="id16">seasonal H1N1 NAs with G147R</a><ul>
+<li><a class="reference internal" href="#id1" id="id17">Amino-acid counts at site 147</a></li>
+<li><a class="reference internal" href="#id2" id="id18">Sequences with G147R</a></li>
+<li><a class="reference internal" href="#id3" id="id19">Phylogenetic tree</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#chicken-h5n1-nas-with-g147r" id="id20">chicken H5N1 NAs with G147R</a><ul>
+<li><a class="reference internal" href="#id4" id="id21">Amino-acid counts at site 147</a></li>
+<li><a class="reference internal" href="#id5" id="id22">Sequences with G147R</a></li>
+<li><a class="reference internal" href="#id6" id="id23">Phylogenetic tree</a></li>
+</ul>
+</li>
 </ul>
 </div>
 <div class="section" id="summary">
-<h1><a class="toc-backref" href="#id1">Summary</a></h1>
+<h1><a class="toc-backref" href="#id7">Summary</a></h1>
 <p>This is an analysis of the occurrences of the G147R mutation in influenza lineages with N1 neuraminidases (NAs). It examines the prevalence of this mutation in NA genes, and constructs phylogenetic trees.</p>
 <p>The G147R mutation is of interest because it confers receptor-binding activity on NA as described in <a class="reference external" href="http://www.ncbi.nlm.nih.gov/pubmed/24027333">Hooper and Bloom, 2013</a>. This analysis examines G147R in the three lineages that <a class="reference external" href="http://www.ncbi.nlm.nih.gov/pubmed/24027333">Hooper and Bloom, 2013</a> reported to contain G147R:</p>
 <ul class="simple">
@@ -352,7 +368,7 @@ ul.auto-toc {
 <p>This analysis was performed by <a class="reference external" href="http://research.fhcrc.org/bloom/en.html">Jesse Bloom</a>.</p>
 </div>
 <div class="section" id="software-used">
-<h1><a class="toc-backref" href="#id2">Software used</a></h1>
+<h1><a class="toc-backref" href="#id8">Software used</a></h1>
 <p>This analysis consists of a <a class="reference external" href="http://www.python.org/">Python</a> script. It has been tested with <a class="reference external" href="http://www.python.org/">Python</a> versions 2.6 and 2.7, and probably works with many other 2.* versions as well. The <a class="reference external" href="http://www.python.org/">Python</a> script is <em>mutation_analysis.py</em>. It uses functions defined in the module <em>mutation_analysis_funcs.py</em>.</p>
 <p>The analysis uses the EMBOSS <a class="reference external" href="http://emboss.sourceforge.net/apps/release/6.6/emboss/apps/needle.html">needle</a> program for pairwise alignments, EMBOSS version 6.5.7.0.</p>
 <p>The phylogenetic trees are built with <a class="reference external" href="http://sourceforge.net/projects/codonphyml/">codonPhyML</a> version 1.00 201306.18</p>
@@ -360,7 +376,7 @@ ul.auto-toc {
 <p>The trees are re-rooted with <a class="reference external" href="http://tree.bio.ed.ac.uk/software/pathogen/">Path-O-Gen</a> version 1.4.</p>
 </div>
 <div class="section" id="input-sequence-files">
-<h1><a class="toc-backref" href="#id3">Input sequence files</a></h1>
+<h1><a class="toc-backref" href="#id9">Input sequence files</a></h1>
 <p>Here is a summary of the input sequence data files used for the analysis. These are found in the subdirectory <tt class="docutils literal">./sequence_files/</tt> in the main repository <a class="reference external" href="https://github.com/jbloom/NA_Mutation_Analysis">on GitHub</a>:</p>
 <ul class="simple">
 <li><em>pdmH1N1_NAs.fasta</em> is the set of all human pandemic H1N1 influenza A NA protein-coding sequences as downloaded from the <a class="reference external" href="http://www.ncbi.nlm.nih.gov/genomes/FLU/FLU.html">Influenza Virus Resource</a> on October-4-2013.</li>
@@ -370,7 +386,7 @@ ul.auto-toc {
 </ul>
 </div>
 <div class="section" id="analysis-algorithm">
-<h1><a class="toc-backref" href="#id4">Analysis algorithm</a></h1>
+<h1><a class="toc-backref" href="#id10">Analysis algorithm</a></h1>
 <p>Here is a description of the algorithm used for the analysis. All of the steps of this analysis except for the final annotation of the phylogenetic trees for visual display are completely automated. So as long as you have installed the appropriate programs listed under <a class="reference internal" href="#software-used">Software used</a>, you can repeat this analysis by running the main <a class="reference external" href="http://www.python.org/">Python</a> script with the command:</p>
 <pre class="literal-block">
 python mutation_analysis.py
@@ -407,10 +423,12 @@ python mutation_analysis.py
 </blockquote>
 </div>
 <div class="section" id="pdmh1n1-nas-with-g147r">
-<h1><a class="toc-backref" href="#id5">pdmH1N1 NAs with G147R</a></h1>
+<h1><a class="toc-backref" href="#id11">pdmH1N1 NAs with G147R</a></h1>
 <p>The subdirectory <tt class="docutils literal">./pdmH1N1_NAs_G147R/</tt> contains an analysis of G147R in viruses in the human 2009 pandemic H1N1 lineage.</p>
 <p>For the phylogenetic tree, in addition to the sequences with G147R, we retain the closest six sequences to each sequence with the mutation, and 10 randomly chosen sequences without the mutation per year. We keep sequences from 2009 and all subsequent years.</p>
 <p><strong>Overall summary:</strong> G147R is present in a few strains, but no evidence of evolutionary clusters. Some strains also have the intriguing G147E mutation.</p>
+<div class="section" id="amino-acid-counts-at-site-147">
+<h2><a class="toc-backref" href="#id12">Amino-acid counts at site 147</a></h2>
 <p>Here are the counts of the amino-acid identities at site 147:</p>
 <blockquote>
 <ul class="simple">
@@ -420,23 +438,43 @@ python mutation_analysis.py
 <li>1 has  X</li>
 </ul>
 </blockquote>
+</div>
+<div class="section" id="sequences-with-g147r">
+<h2><a class="toc-backref" href="#id13">Sequences with G147R</a></h2>
 <p>Here are all the sequences with G147R:</p>
 <pre class="literal-block">
 cds:ADN26074 A/Finland/614/2009 H1N1 2009/07/24 NA
 cds:AFE11259 A/Tianjinhedong/SWL44/2011 H1N1 2011/01/08 NA
 cds:AFN20030 A/Singapore/SGH02/2011 H1N1 2011/02/09 NA
 </pre>
+</div>
+<div class="section" id="phylogenetic-tree">
+<h2><a class="toc-backref" href="#id14">Phylogenetic tree</a></h2>
 <p>Here is the tree (the file <tt class="docutils literal">./pdmH1N1_NAs_G147R/codonphyml_tree_formatted.pdf</tt>). If your browser does not display the PDF embedded in HTML, click on the link to see the PDF alone:</p>
 <div class="figure align-center">
 <a class="reference external image-reference" href="./pdmH1N1_NAs_G147R/codonphyml_tree_formatted.pdf"><img alt="./pdmH1N1_NAs_G147R/codonphyml_tree_formatted.pdf" src="./pdmH1N1_NAs_G147R/codonphyml_tree_formatted.pdf" /></a>
 <p class="caption">Maximum-likelihood phylogenetic tree of G147R in pdmH1N1. Sequences with G147R are colored red. Support values for key branches are shown (<a class="reference external" href="http://sysbio.oxfordjournals.org/content/60/5/685.long">SH-aLRT</a> support). Some nodes are collapsed for visual display.</p>
 </div>
 </div>
+<div class="section" id="nearest-neighbors-of-a-finland-614-2009">
+<h2><a class="toc-backref" href="#id15">Nearest-neighbors of A/Finland/614/2009</a></h2>
+<p>The sequence closest in the NA phylogenetic tree to <em>A/Finland/614/2009</em> is <em>A/Singapore/TT278/2010</em> (<em>A/Indiana/17/2009</em> is equally close, but it has an ambiguous nucleotide identity). The NAs of <em>A/Finland/614/2009</em> and <em>A/Singapore/TT278/2010</em> differ by only a single amino-acid mutation: G147R. If you look at the <tt class="docutils literal">./pdmH1N1_NAs_G147R/identical_sequences.txt</tt> file, you will see that there are a vast number of other strains with NAs that are identical to <em>A/Singapore/TT278/2010</em>, and so have an equally close relationship to <em>A/Finland/614/2009</em>.</p>
+<p>How different are some of these sequences that differ only at G147R in their HA proteins? The HA of <em>A/Finland/614/2009</em> has an ambiguous amino acid at site <em>239</em> (in sequential 1, 2, numbering), which is equivalent to site <em>228</em> in the numbering scheme of PDB <a class="reference external" href="http://www.rcsb.org/pdb/explore.do?structureId=4JTV">4JTV</a> and site <em>225</em> in the numbering scheme of PDB <a class="reference external" href="http://www.rcsb.org/pdb/explore.do?structureId=4HMG">4HMG</a> (this last scheme is H3 numbering): It is unclear if this site is a glycine (<em>G</em>) or an aspartic acid (<em>D</em>). We can find sequences that differ in the NA proteins only by G147R and would have no differences in their HA for either of these identities:</p>
+<blockquote>
+<ul class="simple">
+<li><em>A/England/415/2009</em> has an NA identical to <em>A/Singapore/TT278/2010</em> (differs from <em>A/Finland/614/2009</em> at the protein level only by G147R) and has an HA identical to the <em>D239</em> variant of the <em>A/Finland/614/2009</em> HA.</li>
+<li><em>A/California/VRDL27/2009</em> has an NA identical to <em>A/Singapore/TT278/2010</em> (differs from <em>A/Finland/614/2009</em> at the protein level only by G147R) and has an HA identical to the <em>G239</em> variants of the <em>A/Finland/614/2009</em> HA.</li>
+</ul>
+</blockquote>
+</div>
+</div>
 <div class="section" id="seasonal-h1n1-nas-with-g147r">
-<h1><a class="toc-backref" href="#id6">seasonal H1N1 NAs with G147R</a></h1>
+<h1><a class="toc-backref" href="#id16">seasonal H1N1 NAs with G147R</a></h1>
 <p>The subdirectory <tt class="docutils literal">./seasonalH1N1_NAs_G147R/</tt> contains an analysis of G147R in viruses in the human seasonal H1N1 lineage (which circulated from 1918 to 1957, and then 1957 to 2009 in humans).</p>
 <p>For the phylogenetic tree, in addition to the sequences with G147R, we retain the closest two sequences to each sequence with the mutation, and six randomly chosen sequences without the mutation per year. The tree includes only sequences from 2007 to 2009, because (with one exception) G147R only appeared starting in 2007.</p>
 <p><strong>Overall summary:</strong> G147R is present in 20 strains, with all but one of the occurrences in 2007 and later. There are some small phylogenetic clusters of G147R sequences.</p>
+<div class="section" id="id1">
+<h2><a class="toc-backref" href="#id17">Amino-acid counts at site 147</a></h2>
 <p>Here are the counts of the amino-acid identities at site 147:</p>
 <blockquote>
 <ul class="simple">
@@ -445,6 +483,9 @@ cds:AFN20030 A/Singapore/SGH02/2011 H1N1 2011/02/09 NA
 <li>5 have X</li>
 </ul>
 </blockquote>
+</div>
+<div class="section" id="id2">
+<h2><a class="toc-backref" href="#id18">Sequences with G147R</a></h2>
 <p>Here are all the sequences with G147R:</p>
 <pre class="literal-block">
 cds:ABD78030 A/South Canterbury/59/2000 H1N1 2000/09/06 NA
@@ -471,17 +512,23 @@ cds:ACU44235 A/Kentucky/08/2009 H1N1 2009/05/12 NA
 cds:ACU44027 A/Kentucky/08/2009 H1N1 2009/05/12 NA
 cds:ADZ53099 A/Hong Kong/17566/2009 H1N1 2009// NA
 </pre>
+</div>
+<div class="section" id="id3">
+<h2><a class="toc-backref" href="#id19">Phylogenetic tree</a></h2>
 <p>Here is the tree (the file <tt class="docutils literal">./seasonalH1N1_NAs_G147R/codonphyml_tree_formatted.pdf</tt>). If your browser does not display the PDF embedded in HTML, click on the link to see the PDF alone:</p>
 <div class="figure align-center">
 <a class="reference external image-reference" href="./seasonalH1N1_NAs_G147R/codonphyml_tree_formatted.pdf"><img alt="./seasonalH1N1_NAs_G147R/codonphyml_tree_formatted.pdf" src="./seasonalH1N1_NAs_G147R/codonphyml_tree_formatted.pdf" /></a>
 <p class="caption">Maximum-likelihood phylogenetic tree of G147R in seasonal H1N1. Sequences with G147R are colored red. Support values for key branches are shown (<a class="reference external" href="http://sysbio.oxfordjournals.org/content/60/5/685.long">SH-aLRT</a> support). Some nodes are collapsed for visual display.</p>
 </div>
 </div>
+</div>
 <div class="section" id="chicken-h5n1-nas-with-g147r">
-<h1><a class="toc-backref" href="#id7">chicken H5N1 NAs with G147R</a></h1>
+<h1><a class="toc-backref" href="#id20">chicken H5N1 NAs with G147R</a></h1>
 <p>The subdirectory <tt class="docutils literal">./chickenH5N1_NAs_G147R/</tt> contains an analysis of G147R in viruses in chicken H5N1 viruses.</p>
 <p>For the phylogenetic tree, in addition to the sequences with G147R, we retain the closest four sequences to each sequence with the mutation, and 10 randomly chosen sequences without the mutation per year. The tree includes only sequences from 2004 and later because the first G147R virus in chicken H5N1 is an a sequence from 2004.</p>
 <p><strong>Overall summary:</strong> G147R is present in 8 strains. There are some small phylogenetic clusters of G147R sequences.</p>
+<div class="section" id="id4">
+<h2><a class="toc-backref" href="#id21">Amino-acid counts at site 147</a></h2>
 <p>Here are the counts of the amino-acid identities at site 147:</p>
 <blockquote>
 <ul class="simple">
@@ -490,6 +537,9 @@ cds:ADZ53099 A/Hong Kong/17566/2009 H1N1 2009// NA
 <li>2 have E</li>
 </ul>
 </blockquote>
+</div>
+<div class="section" id="id5">
+<h2><a class="toc-backref" href="#id22">Sequences with G147R</a></h2>
 <p>Here are the sequences with G147R:</p>
 <pre class="literal-block">
 cds:ADG59211 A/chicken/Gansu/44/2004 H5N1 2004// NA
@@ -501,10 +551,14 @@ cds:AGG52921 A/chicken/Bangladesh/12VIR-7140-2/2012 H5N1 2012/01/02 NA
 cds:AGG52922 A/chicken/Bangladesh/12VIR-7140-3/2012 H5N1 2012/01/08 NA
 cds:AGG52925 A/chicken/Bangladesh/12VIR-7140-6/2012 H5N1 2012/02/14 NA
 </pre>
+</div>
+<div class="section" id="id6">
+<h2><a class="toc-backref" href="#id23">Phylogenetic tree</a></h2>
 <p>Here is the tree (the file <tt class="docutils literal">./chickenH5N1_NAs_G147R/codonphyml_tree_formatted.pdf</tt>). If your browser does not display the PDF embedded in HTML, click on the link to see the PDF alone:</p>
 <div class="figure align-center">
 <a class="reference external image-reference" href="./chickenH5N1_NAs_G147R/codonphyml_tree_formatted.pdf"><img alt="./chickenH5N1_NAs_G147R/codonphyml_tree_formatted.pdf" src="./chickenH5N1_NAs_G147R/codonphyml_tree_formatted.pdf" /></a>
 <p class="caption">Maximum-likelihood phylogenetic tree of G147R in chicken H5N1. Sequences with G147R are colored red. Support values for key branches are shown (<a class="reference external" href="http://sysbio.oxfordjournals.org/content/60/5/685.long">SH-aLRT</a> support). Some nodes are collapsed for visual display.</p>
+</div>
 </div>
 </div>
 </div>
