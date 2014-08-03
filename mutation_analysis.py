@@ -184,7 +184,7 @@ def main():
     maxgaps = 100 # maximum gaps to retain sequence if doesn't have mutation
     minseqlength = 1000 # only consider sequences if at least this long
     codonphyml = 'codonphyml' # codonPhyML program -- assumes in current path
-    needlepath = '/Users/jbloom/EMBOSS-6.5.7/emboss/needle' # needle path
+    needlepath = 'needle' # needle path
     outlierfile = '%s/outliers.txt' % seqdir # lists outlier strains
     strainmatch = re.compile('cds\:\w+ (?P<strain>[\?\:\'\/\-\(\)\. \w]+) ((H\d{1,2}){0,1}N\d{1,2}) ')
     protalignmentfile = 'protein_alignment.fasta'
